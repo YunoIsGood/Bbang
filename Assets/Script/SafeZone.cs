@@ -1,3 +1,6 @@
+
+
+
 using UnityEngine;
 
   
@@ -15,6 +18,7 @@ public class SafeZone : MonoBehaviour
     {
 
         GameManager.instance.isSafeZone = true;
+		
 
         Debug.Log("안전지대 안입니다.");
 
