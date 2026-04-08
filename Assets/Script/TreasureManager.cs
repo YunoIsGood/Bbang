@@ -26,7 +26,7 @@ public class TreasureManager : MonoBehaviour
 
 {
 
-    [Header("보물 리스트")]
+    [Header("보물 리스트")]  
 
     public List<TreasureData> treasureList = new List<TreasureData>();
 

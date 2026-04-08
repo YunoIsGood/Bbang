@@ -36934,6 +36934,9 @@ GameObject:
   - component: {fileID: 1822952157}
   - component: {fileID: 1822952159}
   - component: {fileID: 1822952158}
+  - component: {fileID: 1822952160}
+  - component: {fileID: 1822952161}
+  - component: {fileID: 1822952162}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -37137,6 +37140,49 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &1822952160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822952152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf280b4bfecbfc544bd7786982c2b01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemcoin: 3
+  healitem: 50
+--- !u!114 &1822952161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822952152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25f9a0ba09311b40bfe9bc57bd37417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemcoin2: 3
+  timeFloating: 120
+--- !u!114 &1822952162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822952152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31659d3aefaf23e47a42e59da2f3c9bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 0}
+  speedUpgread: 2
+  speedUpMax: 15
 --- !u!1 &1847795746
 GameObject:
   m_ObjectHideFlags: 0
@@ -37167,14 +37213,114 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   treasureList:
-  - name: a
+  - name: plastic
     sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
     price: 1
     chance: 50
-  - name: b
+  - name: WoodPice
     sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
-    price: 1
-    chance: 60
+    price: 2
+    chance: 50
+  - name: jatae
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 20
+    chance: 50
+  - name: umamusmae
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 60
+    chance: 50
+  - name: Airpot
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 50
+    chance: 50
+  - name: bbung
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 550
+    chance: 50
+  - name: Tumble
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 100
+    chance: 50
+  - name: programer`s die
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 0
+    chance: 50
+  - name: umamusmae
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 550
+    chance: 40
+  - name: broken phone
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 550
+    chance: 40
+  - name: litGoldcrown
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 2000
+    chance: 40
+  - name: CavePlants
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 700
+    chance: 40
+  - name: mouse
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 900
+    chance: 40
+  - name: magic
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 1000
+    chance: 40
+  - name: Ronaldo
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 1000
+    chance: 40
+  - name: bbing
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 1500
+    chance: 40
+  - name: Jasujung
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 3000
+    chance: 30
+  - name: Amerald
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 4000
+    chance: 25
+  - name: HandamUSB
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 5000
+    chance: 25
+  - name: chungja
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 6000
+    chance: 23
+  - name: Bbang
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 7000
+    chance: 20
+  - name: secretRock
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 9000
+    chance: 15
+  - name: rubydiamond
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 10000
+    chance: 10
+  - name: master
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 12000
+    chance: 10
+  - name: master
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 12000
+    chance: 10
+  - name: holybbangbbang
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 20000
+    chance: 5
+  - name: master
+    sprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
+    price: 12000
+    chance: 10
   treasurePrefab: {fileID: 83822707713747049, guid: cdde7c73185915142b8e3f1c0025cd06, type: 3}
   spawnCount: 20
   minX: -20
