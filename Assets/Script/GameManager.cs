@@ -1,4 +1,7 @@
+using UnityEditor.Search;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
   
 
@@ -7,10 +10,11 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance;//다른 스크립트에서 GameManager.instance.~~~로 접근가능하게 해줌(싱글톤)
+    [SerializeField] private ScoreManager scoreManager;
 
-  
 
-    [Header("Player Stats")]
+
+    [Header("Player Stats")]
 
     public float currentBattery = 100f;//현재 배터리 용량
 
@@ -22,11 +26,20 @@ public class GameManager : MonoBehaviour
 
     public int money = 0;//돈
 
+
     [Header("SafeZone")]
 
     public bool isSafeZone = false; // 안전지대 여부
 
-    void Update()  
+    void Start()
+    {
+        isSafeZone = true;
+        scoreManager.Battery(currentBattery);
+        scoreManager.AddHp(currentHealth);
+    }
+
+
+    void Update()  
 
     {
 
@@ -38,6 +51,8 @@ public class GameManager : MonoBehaviour
 
             GameManager.instance.UseBattery(decreaseAmount);
 
+
+
         }
 
         else if(isSafeZone == true)
@@ -48,6 +63,11 @@ public class GameManager : MonoBehaviour
 
             currentBattery = maxBattery;
 
+            scoreManager.Battery(currentBattery);
+
+            scoreManager.AddHp(currentHealth);
+
+
         }
 
     }
@@ -55,8 +75,10 @@ public class GameManager : MonoBehaviour
     void Awake()
 
     {
-
+        scoreManager = GetComponent<ScoreManager>();
         //싱글톤
+
+
 
         if (instance == null)
 
@@ -109,6 +131,8 @@ public class GameManager : MonoBehaviour
 
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); //Mathf.Clamp(현재값, 최소값, 최대값), 체력이 -10이나 150 이렇게 되는거 막아줌
 
+        scoreManager.AddHp(currentHealth);
+
         if (currentHealth <= 0)
 
         {
@@ -135,6 +159,8 @@ public class GameManager : MonoBehaviour
 
         currentBattery = Mathf.Clamp(currentBattery, 0, maxBattery);
 
+        scoreManager.Battery(currentBattery);
+
     }
 
   
@@ -151,6 +177,10 @@ public class GameManager : MonoBehaviour
 
         currentBattery = maxBattery;
 
+        scoreManager.AddHp(currentHealth); //체력 회복 보이게 하는 메서드 호출
+
+        scoreManager.Battery(currentBattery); //배터리 회복 보이게 하는 메서드 호출
+
         Debug.Log("휴식을 취해 체력과 배터리가 회복되었습니다.");
 
         // 여기에 맵 리셋(몬스터/보물 리스폰) 신호를 추가하면 됨
@@ -164,10 +194,13 @@ public class GameManager : MonoBehaviour
     {
 
         Debug.Log("게임 오버");
-
+        
         // 여기에 아이템 초기화 및 맵 리셋 하는거 넣기
 
     }
+    
+
+    
 
   
 
