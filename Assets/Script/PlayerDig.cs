@@ -18,7 +18,7 @@ public class PlayerDig : MonoBehaviour
         if (GameManager.instance != null && GameManager.instance.isSafeZone) return;
 
         // C 키를 누르면 땅 파기 실행
-        if (Input.GetKeyDown(KeyCode.C)) DigGround();
+        if (Input.GetKeyDown(KeyCode.Space)) DigGround();
         
         // E 키를 누르면 보물 수집 시도
         if (Input.GetKeyDown(KeyCode.E)) TryCollectTreasure();
