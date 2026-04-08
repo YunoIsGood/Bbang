@@ -13,17 +13,17 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image resultImage;
     [SerializeField] private TextMeshProUGUI resultNameText;
     [SerializeField] private TextMeshProUGUI resultPriceText;
-    [SerializeField] private Button keepButton; 
-    [SerializeField] private TextMeshProUGUI warningText; 
+    [SerializeField] private Button keepButton;
+    [SerializeField] private TextMeshProUGUI warningText;
     private TreasureData currentFoundData;
 
-    void Start() 
+    void Start()
     {
         if (resultPanel != null) resultPanel.SetActive(false);
         UpdateInventoryUI(); // 시작 시 초기 상태 표시
     }
 
-    void Update() 
+    void Update()
     {
         moneyText.text = $"Money: {GameManager.instance.money}";
         hpBar.fillAmount = (float)GameManager.instance.currentHealth / GameManager.instance.maxHealth;
@@ -38,19 +38,19 @@ public class UIManager : MonoBehaviour
         int currentCount = GameManager.instance.myInventory.Count;
         int maxCount = GameManager.instance.maxInventorySlots;
 
-        if (currentCount < maxCount) 
+        if (currentCount < maxCount)
         {
             keepButton.interactable = true;
             warningText.text = $"Storage: {currentCount}/{maxCount}";
-        } 
-        else 
+        }
+        else
         {
             keepButton.interactable = false;
             warningText.text = "<color=red>Bag is Full!</color>";
         }
     }
 
-    public void ShowTreasureResult(TreasureData data) 
+    public void ShowTreasureResult(TreasureData data)
     {
         currentFoundData = data;
         resultNameText.text = data.treasureName;
@@ -60,12 +60,12 @@ public class UIManager : MonoBehaviour
         UpdateInventoryUI(); // 결과창 뜰 때 갱신
 
         resultPanel.SetActive(true);
-        Time.timeScale = 0f; 
+        Time.timeScale = 0f;
     }
 
-    public void ClickKeep() 
+    public void ClickKeep()
     {
-        if (currentFoundData != null) 
+        if (currentFoundData != null)
         {
             if (GameManager.instance.CanAddItem())
             {
@@ -80,7 +80,7 @@ public class UIManager : MonoBehaviour
         CloseResult();
     }
 
-    public void ClickDiscard() 
+    public void ClickDiscard()
     {
         CloseResult();
     }
@@ -88,11 +88,11 @@ public class UIManager : MonoBehaviour
     void CloseResult()
     {
         resultPanel.SetActive(false);
-        Time.timeScale = 1f; 
+        Time.timeScale = 1f;
     }
 
-    public void SellAllTreasures() 
-    {   
+    public void SellAllTreasures()
+    {
         var inventory = GameManager.instance.myInventory;
         if (inventory.Count <= 0) return;
 
