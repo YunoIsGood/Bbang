@@ -74,7 +74,7 @@ public class UIManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("버튼 누를 때 이미 가방이 찼음");
+                Debug.Log("버튼 누를 때d 이미 가방이 찼음");
             }
         }
         CloseResult();
