@@ -2,10 +2,9 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.InputSystem;
 
+
 //플레이어 이동
-
-public class PlayerMovement : MonoBehaviour
-
+public class PlayerMovement : MonoBehaviour 
 {
 
     bool _kb = true;
@@ -24,13 +23,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    void OnMove(InputValue value)
-
-    {
-
-        moveDir = value.Get<Vector2>();
-
-    }
+    void OnMove(InputValue value)
+    {
+        moveDir = value.Get<Vector2>();
+    }
 
 
 

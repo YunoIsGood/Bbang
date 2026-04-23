@@ -1,111 +1,93 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class TreasureDisplay : MonoBehaviour
+public class TreasureDisplay : MonoBehaviour//보물 프리팹에 넣는 스크립트
 {
-    private SpriteRenderer spriteRenderer;
-    private RectTransform canvasRect;
-    private Transform playerTransform;
+    private SpriteRenderer spriteRenderer;//보물 이미지 보여줄 스프라이트 렌더러
+    private RectTransform canvasRect;//캔버스 위치
+    private Transform playerTransform;//플레이어 위치
 
-    [Header("데이터")]
-    public string treasureName; // 보물 이름
-    public int price;          // 보물 가격
+    [Header("보관 데이터")]
+    public TreasureData myData; //보물 데이터
 
     [Header("타일맵 설정")]
-    public Tilemap groundTilemap;    // 땅 타일맵 (파내야 할 대상)
-    public Tilemap safeZoneTilemap;  // 안전 구역 타일맵 (파낼 수 없는 곳)
+    public Tilemap groundTilemap;//맵 타일맵
+    public Tilemap safeZoneTilemap;//세이프존 타일맵
 
     [Header("UI 설정")]
-    public GameObject uiPrefab;      // 보물 노출 시 머리 위에 띄울 버튼 UI 프리팹
-    public float showDistance = 3.0f; // UI가 나타날 플레이어와의 최소 거리
+    public GameObject uiPrefab;//보물 근처 가면 뜨는 버튼 프리팹
+    public float showDistance = 3.0f;//버튼 뜨게 할 범위 
     
-    private GameObject myUI;         // 생성된 UI 인스턴스 저장용
-    private RectTransform uiRect;    // 생성된 UI의 위치 조절용
+    private GameObject myUI;
+    private RectTransform uiRect;
+
+    public Sprite chestSprite;//보물상자 이미지
 
     void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        //Awake시에 다 가져오기
+        GameObject spawner = GameObject.Find("TreasureSpawner");//보물 부모로 설정할 TreasureSpawner
+        if (spawner == null) 
+        {
+            spawner = new GameObject("TreasureSpawner");
+        }
+        transform.SetParent(spawner.transform);
 
-        // 하이Hierarchy에서 "Ground"라는 이름의 오브젝트를 찾아 타일맵 컴포넌트 할당
-        GameObject groundObj = GameObject.Find("Ground");
-        if (groundObj != null) groundTilemap = groundObj.GetComponent<Tilemap>();
-
-        // 하이Hierarchy에서 "SafeZone"이라는 이름의 오브젝트를 찾아 타일맵 컴포넌트 할당
-        GameObject safeZoneObj = GameObject.Find("SafeZone");
-        if (safeZoneObj != null) safeZoneTilemap = safeZoneObj.GetComponent<Tilemap>();
-
-        // 씬 내에 존재하는 첫 번째 캔버스를 찾아 캔버스 사각형(RectTransform) 참조
-        Canvas canvas = Object.FindFirstObjectByType<Canvas>();
+        spriteRenderer = GetComponent<SpriteRenderer>();//스프라이트 렌더러
+        groundTilemap = GameObject.Find("Ground")?.GetComponent<Tilemap>();//맵 타일맵
+        safeZoneTilemap = GameObject.Find("SafeZone")?.GetComponent<Tilemap>();//세이프존 타일맵
+        
+        Canvas canvas = Object.FindFirstObjectByType<Canvas>();//캔버스
         if (canvas != null) canvasRect = canvas.GetComponent<RectTransform>();
         
-        // "Player" 태그를 가진 오브젝트를 찾아 트랜스폼 참조
-        GameObject player = GameObject.FindWithTag("Player");
+        GameObject player = GameObject.FindWithTag("Player");//플레이어
         if (player != null) playerTransform = player.transform;
     }
 
-    // 외부(예: 보물 생성 매니저)에서 보물 정보를 주입할 때 사용하는 함수
     public void SetTreasure(TreasureData data)
     {
-        if (data == null) return;
-        treasureName = data.name;
-        price = data.price;
-        if (spriteRenderer != null) spriteRenderer.sprite = data.sprite;
+        myData = data; //보물상자 안의 데이터를 보물 데이터로 설정
+        if (spriteRenderer != null) //보물상자 이미지 없으면
+        {
+            spriteRenderer.sprite = chestSprite; //보물상자 이미지 넣기
+        }
         gameObject.name = data.name;
     }
 
     void Update()
     {
-        // 필수 참조 요소 중 하나라도 없으면 에러 방지를 위해 업데이트 중단
-        if (groundTilemap == null || safeZoneTilemap == null || Camera.main == null || 
-            uiPrefab == null || canvasRect == null || playerTransform == null) 
-            return;
+        if (groundTilemap == null || playerTransform == null || Camera.main == null) return;// 맵 타일맵, 플레이어 위치, 카메라 설정 안했으면 반환
 
-        // 보물의 현재 월드 위치를 타일맵의 셀 좌표로 변환
         Vector3Int cellPos = groundTilemap.WorldToCell(transform.position);
-
-        // 1. 타일 존재 여부 체크 (땅 타일과 세이프존 타일이 모두 없어야 '드러난' 상태)
-        bool hasGround = groundTilemap.HasTile(cellPos);
-        bool hasSafeZone = safeZoneTilemap.HasTile(cellPos);
-
-        // 땅도 없고 세이프존 타일도 없을 때만 보물이 밖으로 노출된 것으로 판정
-        bool isExposed = !hasGround && !hasSafeZone;
-
-        // 2. 플레이어와 보물 사이의 거리 계산
+        bool isExposed = !groundTilemap.HasTile(cellPos) && (safeZoneTilemap == null || !safeZoneTilemap.HasTile(cellPos));
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 
-        // 3. 조건 충족 시(노출됨 + 사거리 안) UI 표시
-        if (isExposed && distance <= showDistance)
+        if (isExposed && distance <= showDistance && uiPrefab != null)//땅이 파져있고 감지 범위 안이라면
         {
-            // UI가 아직 생성되지 않았다면 프리팹을 캔버스 자식으로 생성
             if (myUI == null)
             {
                 myUI = Instantiate(uiPrefab, canvasRect);
                 uiRect = myUI.GetComponent<RectTransform>();
             }
-            myUI.SetActive(true); // UI 활성화
+            myUI.SetActive(true);
 
-            // --- 월드 좌표를 UI 좌표로 변환하는 과정 ---
-            // 보물의 약간 위쪽(0.8f) 지점을 UI 표시 지점으로 설정
             Vector3 worldPos = transform.position + Vector3.up * 0.8f;
-            // 카메라를 통해 월드 좌표를 화면 스크린 좌표로 변환
             Vector2 screenPoint = Camera.main.WorldToScreenPoint(worldPos);
-            // 스크린 좌표를 캔버스 내의 로컬 좌표로 변환
-            RectTransformUtility.ScreenPointToLocalPointInRectangle(
-                canvasRect, screenPoint, Camera.main, out Vector2 localPoint);
-
-            // 변환된 좌표를 UI의 앵커 위치에 적용
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, screenPoint, Camera.main, out Vector2 localPoint);
             uiRect.anchoredPosition = localPoint;
         }
         else if (myUI != null)
         {
-            // 범위를 벗어나거나 다시 묻히면 UI 비활성화
             myUI.SetActive(false);
         }
     }
 
-    void OnDestroy()
+    void OnDestroy() 
     {
-        // 보물 오브젝트가 파괴될 때 생성했던 UI도 함께 파괴 (메모리 관리)
-        if (myUI != null) Destroy(myUI);
+         if (myUI != null)
+        {
+            Destroy(myUI);
+        }
+          
     }
 }

@@ -46,12 +46,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66578e7e4b215b8459fa1fdb9cf4e78c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  treasureName: 
-  price: 0
+  myData: {fileID: 0}
   groundTilemap: {fileID: 0}
   safeZoneTilemap: {fileID: 0}
   uiPrefab: {fileID: 2738726612604219712, guid: 0040ef3525488c547ba0a106b77b806d, type: 3}
   showDistance: 2
+  chestSprite: {fileID: 3376558149816479880, guid: 660cc1e6360e2164082ad56277391585, type: 3}
 --- !u!212 &1425669415704572840
 SpriteRenderer:
   m_ObjectHideFlags: 0
