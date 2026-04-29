@@ -1,7 +1,7 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
-public class TreasureManager : MonoBehaviour
+public class ExTreasureManager : MonoBehaviour
 {
     [Header("보물 리스트")]
     public List<TreasureData> treasureList = new List<TreasureData>();
@@ -44,7 +44,7 @@ public class TreasureManager : MonoBehaviour
 
                 // 생성된 개별 보물(Display)에 데이터를 넣어줌
                 TreasureDisplay display = newTreasure.GetComponent<TreasureDisplay>();
-                if (display != null)
+                if (display != null)                
                 {
                     display.SetTreasure(selectedTreasure);
                 }
@@ -52,3 +52,5 @@ public class TreasureManager : MonoBehaviour
         }
     }
 }
+    
+
