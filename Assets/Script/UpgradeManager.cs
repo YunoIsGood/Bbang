@@ -31,10 +31,10 @@ public class UpgradeManager : MonoBehaviour
 
     void UpdateAllUI() 
     {
-        lightUpgradeText.text = $"Light: {GameManager.instance.baseInnerRadius:F1}\nLv: {lightUpgradeLevel}\n{lightUpgradeGold}G";
-        hpUpgradeText.text = $"HP: {GameManager.instance.maxHealth}\nLv: {hpUpgradeLevel}\n{hpUpgradeGold}G";
-        batteryUpgradeText.text = $"Battery: {GameManager.instance.maxBattery}\nLv: {batteryUpgradeLevel}\n{batteryUpgradeGold}G";
-        bagUpgradeText.text = $"Bag: {GameManager.instance.maxInventorySlots} Slots\nLv: {bagUpgradeLevel}\n{bagUpgradeGold}G";
+        lightUpgradeText.text = $"시야 범위: {GameManager.instance.baseInnerRadius:F1}\n레벨: {lightUpgradeLevel}\n{lightUpgradeGold}G";
+        hpUpgradeText.text = $"체력: {GameManager.instance.maxHealth}\n레벨: {hpUpgradeLevel}\n{hpUpgradeGold}G";
+        batteryUpgradeText.text = $"배터리 용량: {GameManager.instance.maxBattery}\n레벨: {batteryUpgradeLevel}\n{batteryUpgradeGold}G";
+        bagUpgradeText.text = $"가방 용량: {GameManager.instance.maxInventorySlots} \n레벨: {bagUpgradeLevel}\n{bagUpgradeGold}G";
     }
 
     public void BagUpgrade() 
