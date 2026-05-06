@@ -1,7 +1,8 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
@@ -21,10 +22,13 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Animator uiChestAnimator; // UI 내 보물상자 애니메이터
     [SerializeField] private GameObject rewardContent;  // 아이템 정보 + 버튼들을 묶은 부모 오브젝트
     [SerializeField] private float animationDuration = 1.0f; // 애니메이션이 재생되는 시간
+    [SerializeField] GameObject questUi;
 
     private TreasureData currentFoundData;
     private GameObject currentWorldTreasure;
     private TreasureManager treasureManager;
+
+   
 
     void Awake()
     {
@@ -34,7 +38,8 @@ public class UIManager : MonoBehaviour
     void Start() 
     {
         if (resultPanel != null) resultPanel.SetActive(false);
-        UpdateInventoryUI(); 
+        UpdateInventoryUI();
+        questUi.SetActive(false);
     }
 
     void Update() 
@@ -42,6 +47,14 @@ public class UIManager : MonoBehaviour
         moneyText.text = GameManager.instance.money.ToString();
         hpBar.fillAmount = (float)GameManager.instance.currentHealth / GameManager.instance.maxHealth;
         batteryBar.fillAmount = (float)GameManager.instance.currentBattery / GameManager.instance.maxBattery;
+
+        if (Keyboard.current.tabKey.wasPressedThisFrame)
+        {
+            bool isActive = questUi.gameObject.activeSelf;
+            questUi.SetActive(!isActive);
+
+            Time.timeScale = isActive ? 1.0f : 0.0f;
+        }
     }
 
     public void UpdateInventoryUI()
@@ -149,4 +162,6 @@ public class UIManager : MonoBehaviour
 
         Object.FindFirstObjectByType<InventoryManager>()?.SendMessage("RefreshInventory", SendMessageOptions.DontRequireReceiver);
     }
+
+   
 }
