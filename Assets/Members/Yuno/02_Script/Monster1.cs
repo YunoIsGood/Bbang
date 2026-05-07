@@ -1,11 +1,14 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 public class Monster1 : MonoBehaviour
 {
     [Header("Settings")]
     public float speed = 5f;            // 속도를 살짝 올리면 더 위협적입니다.
     public float attackCooldown = 1.0f; // 공격 사이의 간격
+    public float currenthealth;
+    public float maxHealth;
     
     [Header("Required Objects")]
     public GameObject attackHitbox;
@@ -27,6 +30,7 @@ public class Monster1 : MonoBehaviour
 
     protected virtual void Awake()
     {
+        currenthealth = maxHealth;
         _rb = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
         if (attackHitbox != null) attackHitbox.SetActive(false);
@@ -118,5 +122,19 @@ public class Monster1 : MonoBehaviour
     {
         if (_rb != null) _rb.linearVelocity = Vector2.zero;
         if (_anim != null) _anim.SetBool(hash_isWalking, false);
+    }
+    public void TakeDamage(int damage)
+    {
+        currenthealth -= damage;
+        if(currenthealth < 0)
+        {
+            DIe();
+
+        }
+    }
+
+    private void DIe()
+    {
+        Destroy(gameObject);
     }
 }

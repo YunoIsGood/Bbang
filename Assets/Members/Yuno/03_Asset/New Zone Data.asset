@@ -18,6 +18,7 @@ MonoBehaviour:
   zoneTreasures:
   - {fileID: 11400000, guid: eb1d03763a9f9f1419adc4ba4cb50113, type: 2}
   - {fileID: 11400000, guid: 1bd89c1a2a10c4c459751fbc9a656ffa, type: 2}
+  - {fileID: 11400000, guid: b9cfd0e74cb915d41b268f19507f2344, type: 2}
   zoneMonsters:
   - {fileID: 1006093452206632912, guid: a70d959d92d7e0140833fb80119d7648, type: 3}
   treasureCount: 10

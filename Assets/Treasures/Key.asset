@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ae7391b7d3dd1e40bcb977b8883ba9a, type: 3}
-  m_Name: 2
+  m_Name: Key
   m_EditorClassIdentifier: 
-  treasureName: "\uD3B8\uC9C0"
-  treasureIcon: {fileID: 3928878328890046419, guid: 459f1aa13660b6549b8ddb934d3838ea, type: 3}
-  price: 100
-  chance: 39
+  treasureName: "\uC5F4\uC1E0"
+  treasureIcon: {fileID: 21300000, guid: 3792652e11b574649a26f748aac8800f, type: 3}
+  price: 0
+  chance: 1
