@@ -8,6 +8,7 @@ public class PlayerDig : MonoBehaviour
     public LayerMask treasureLayer;
     public float digRadius = 1.5f;
     public float collectRadius = 1.2f;
+    public ParticleSystem digEffect;
 
     void Update()
     {
@@ -23,20 +24,40 @@ public class PlayerDig : MonoBehaviour
         if (groundTilemap == null) return;
         if (GameManager.instance.currentBattery <= 0) return;
 
-        GameManager.instance.UseBattery(2.5f);
         Vector3Int playerCellPos = groundTilemap.WorldToCell(transform.position);
         int range = Mathf.CeilToInt(digRadius);
+        
+        bool hasDigSomething = false; // 실제로 타일을 팠는지 체크하는 변수
 
         for (int x = -range; x <= range; x++)
         {
             for (int y = -range; y <= range; y++)
             {
                 Vector3Int tilePos = new Vector3Int(playerCellPos.x + x, playerCellPos.y + y, 0);
-                if (Vector2.Distance(transform.position, groundTilemap.GetCellCenterWorld(tilePos)) <= digRadius)
+                
+                // 타일이 있는지 먼저 확인
+                if (groundTilemap.HasTile(tilePos)) 
                 {
-                    if (safeZoneTilemap != null && safeZoneTilemap.HasTile(tilePos)) continue;
-                    groundTilemap.SetTile(tilePos, null);
+                    if (Vector2.Distance(transform.position, groundTilemap.GetCellCenterWorld(tilePos)) <= digRadius)
+                    {
+                        if (safeZoneTilemap != null && safeZoneTilemap.HasTile(tilePos)) continue;
+
+                        groundTilemap.SetTile(tilePos, null);
+                        hasDigSomething = true; // 타일을 하나라도 팠다면 true
+                    }
                 }
+            }
+        }
+
+        // 실제로 타일을 팠을 때만 배터리 소모 및 파티클 생성
+        if (hasDigSomething)
+        {
+            GameManager.instance.UseBattery(2.5f);
+            
+            if (digEffect != null)
+            {
+                ParticleSystem effectInstance = Instantiate(digEffect, transform.position, Quaternion.identity);
+                Destroy(effectInstance.gameObject, effectInstance.main.duration + 0.5f);
             }
         }
     }
