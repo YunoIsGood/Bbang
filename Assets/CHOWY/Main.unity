@@ -429,7 +429,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1212473254}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
         m_MethodName: BatteryUpgrade
         m_Mode: 1
@@ -562,8 +562,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 399016203}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+      - m_Target: {fileID: 399016205}
+        m_TargetAssemblyTypeName: WonyoungUIManager, Assembly-CSharp
         m_MethodName: OnSettingExit
         m_Mode: 1
         m_Arguments:
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1212473254}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
         m_MethodName: LightUpgrade
         m_Mode: 1
@@ -37439,7 +37439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399016204}
-  - component: {fileID: 399016203}
+  - component: {fileID: 399016205}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -37447,7 +37447,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &399016203
+--- !u!4 &399016204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399016202}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0395447, y: -1.5836935, z: 0.00074874796}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &399016205
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37456,7 +37471,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 399016202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dcf84154aede204591f7d6ff525466e, type: 3}
+  m_Script: {fileID: 11500000, guid: 06547849efd1bb640916efeedfaab9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moneyText: {fileID: 978130088}
@@ -37473,22 +37488,6 @@ MonoBehaviour:
   animationDuration: 1
   escUIPanel: {fileID: 1422561293}
   settingUIPanel: {fileID: 1216341894}
-  DeadPanel: {fileID: 0}
---- !u!4 &399016204
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 399016202}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0395447, y: -1.5836935, z: 0.00074874796}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &399592334
 GameObject:
   m_ObjectHideFlags: 0
@@ -38073,7 +38072,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 399016203}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: SellAllTreasures
         m_Mode: 1
@@ -38164,7 +38163,7 @@ MonoBehaviour:
   baseOuterRadius: 6.5
   myInventory: []
   maxInventorySlots: 4
-  ui: {fileID: 0}
+  uiManager: {fileID: 0}
 --- !u!4 &511588167
 Transform:
   m_ObjectHideFlags: 0
@@ -38862,8 +38861,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 399016203}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+      - m_Target: {fileID: 399016205}
+        m_TargetAssemblyTypeName: WonyoungUIManager, Assembly-CSharp
         m_MethodName: OnClickSetting
         m_Mode: 1
         m_Arguments:
@@ -39411,7 +39410,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1212473254}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
         m_MethodName: HPUpgrade
         m_Mode: 1
@@ -40211,7 +40210,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 399016203}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: ClickKeep
         m_Mode: 1
@@ -40655,8 +40654,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1212473255}
-  - component: {fileID: 1212473254}
   - component: {fileID: 1212473256}
+  - component: {fileID: 1212473257}
   m_Layer: 0
   m_Name: UpgradeManager
   m_TagString: Untagged
@@ -40664,23 +40663,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1212473254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212473253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 312ffef053dd384409350769dc643329, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shopPanel: {fileID: 1675474370}
-  lightUpgradeText: {fileID: 1731816161}
-  hpUpgradeText: {fileID: 1845135387}
-  batteryUpgradeText: {fileID: 919172154}
-  bagUpgradeText: {fileID: 420343536}
 --- !u!4 &1212473255
 Transform:
   m_ObjectHideFlags: 0
@@ -40732,6 +40714,23 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 2.2415686, y: 0}
   m_Radius: 2.7415686
+--- !u!114 &1212473257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212473253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4259b8981c5a3b848b7db8dbba5287b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopPanel: {fileID: 1675474370}
+  lightUpgradeText: {fileID: 1731816161}
+  hpUpgradeText: {fileID: 1845135387}
+  batteryUpgradeText: {fileID: 919172154}
+  bagUpgradeText: {fileID: 420343536}
 --- !u!1 &1216341894
 GameObject:
   m_ObjectHideFlags: 0
@@ -40893,8 +40892,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 399016203}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+      - m_Target: {fileID: 399016205}
+        m_TargetAssemblyTypeName: WonyoungUIManager, Assembly-CSharp
         m_MethodName: OnClickPlay
         m_Mode: 1
         m_Arguments:
@@ -41651,7 +41650,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1212473254}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
         m_MethodName: BagUpgrade
         m_Mode: 1
@@ -43640,7 +43639,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 399016203}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: ClickDiscard
         m_Mode: 1

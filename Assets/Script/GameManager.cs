@@ -41,10 +41,10 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    //private void Start()
-    //{
-    //    ui = gameObject.GetComponent<UIManager>();
-    //}
+    private void Start()
+    {
+        uiManager = gameObject.GetComponent<UIManager>();
+    }
 
 
     void Update()
