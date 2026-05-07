@@ -1,18 +1,23 @@
 using UnityEngine;
 
   
-public class SafeZone : MonoBehaviour
-//세이프존에 들어갈 스크립트
-{
 
+public class SafeZone : MonoBehaviour
+
+{
+	
     private void OnTriggerStay2D(Collider2D collider)
 
     {
 
-    if (collider.gameObject.CompareTag("Player"))//세이프존에 닿아있는 태그가 Player 라면
+    if (collider.gameObject.CompareTag("Player"))
 
     {
-        GameManager.instance.isSafeZone = true;//GameManager에 isSafeZone을 true로
+
+        GameManager.instance.isSafeZone = true;
+
+        Debug.Log("안전지대 안입니다.");
+
     }
 
     }
@@ -20,11 +25,14 @@ public class SafeZone : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collider)
 
     {
-    if (collider.gameObject.CompareTag("Player"))//세이프존에 닿았다가 나간 태그가 Player라면
+
+    if (collider.gameObject.CompareTag("Player"))
+
     {
 
-        GameManager.instance.isSafeZone = false;//GameManager에 isSafeZone을 false로
+        GameManager.instance.isSafeZone = false;
 
+        Debug.Log("안전지대 밖입니다.");
 
     }
 
