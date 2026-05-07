@@ -1,7 +1,9 @@
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
+using TMPro;
+using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,8 +16,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image resultImage;
     [SerializeField] private TextMeshProUGUI resultNameText;
     [SerializeField] private TextMeshProUGUI resultPriceText;
-    [SerializeField] private Button keepButton; 
-    [SerializeField] private TextMeshProUGUI warningText; 
+    [SerializeField] private Button keepButton;
+    [SerializeField] private TextMeshProUGUI warningText;
 
     [Header("연출 설정")]
     [SerializeField] private Animator uiChestAnimator; // UI 내 보물상자 애니메이터
@@ -26,28 +28,72 @@ public class UIManager : MonoBehaviour
     private GameObject currentWorldTreasure;
     private TreasureManager treasureManager;
 
+    [Header("UI모음")]
+    [SerializeField] private GameObject escUIPanel;
+    [SerializeField] private GameObject settingUIPanel;
+   
+
     void Awake()
     {
         treasureManager = Object.FindFirstObjectByType<TreasureManager>();
     }
 
-    void Start() 
+    void Start()
     {
         if (resultPanel != null) resultPanel.SetActive(false);
-        UpdateInventoryUI(); 
+        UpdateInventoryUI();
+        escUIPanel.SetActive(false);
+        
     }
+
+
+    public void OnClickPlay()
+    {
+        escUIPanel.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void OnClickSetting()
+    {
+        settingUIPanel.SetActive(true);
+
+
+    }
+   
+    public void OnSettingExit()
+    {
+        settingUIPanel.SetActive(false);
+    }
+    public void GameOver()
+    {
+        
+        Time.timeScale = 0;
+    }
+
 
     void Update() 
     {
         moneyText.text = GameManager.instance.money.ToString();
         hpBar.fillAmount = (float)GameManager.instance.currentHealth / GameManager.instance.maxHealth;
         batteryBar.fillAmount = (float)GameManager.instance.currentBattery / GameManager.instance.maxBattery;
+
+        if (Keyboard.current.escapeKey.wasPressedThisFrame)//세팅 UI 코드
+        {
+
+            bool isActive = escUIPanel.activeSelf;
+            escUIPanel.SetActive(!isActive);
+
+            Time.timeScale = isActive ? 1 : 0;
+
+        }
+        
     }
 
     public void UpdateInventoryUI()
     {
         if (warningText == null) return;
 
+        Debug.Assert(GameManager.instance != null, "게임메니저를 구해오지 못함");
         int currentCount = GameManager.instance.myInventory.Count;
         int maxCount = GameManager.instance.maxInventorySlots;
 

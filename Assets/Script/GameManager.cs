@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -26,6 +27,8 @@ public class GameManager : MonoBehaviour
     public List<TreasureData> myInventory = new List<TreasureData>(); // 인벤토리 리스트
     public int maxInventorySlots = 4; // 최대 가방 용량
 
+    public UIManager uiManager;
+    
     void Awake() //싱글톤 패턴
     {
         if (instance == null)
@@ -38,6 +41,11 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    //private void Start()
+    //{
+    //    ui = gameObject.GetComponent<UIManager>();
+    //}
+
 
     void Update()
     {
@@ -63,6 +71,9 @@ public class GameManager : MonoBehaviour
             headLight.pointLightInnerRadius = baseInnerRadius;
             headLight.pointLightOuterRadius = baseOuterRadius;
         }
+
+
+        
     }
 
     public void AddMoney(int amount) //돈 관리 AddMoney(매개변수)
@@ -102,4 +113,5 @@ public class GameManager : MonoBehaviour
             Debug.Log($"{data.treasureName} 획득! ({myInventory.Count}/{maxInventorySlots})");
         }
     }
+   
 }
