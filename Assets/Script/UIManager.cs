@@ -10,6 +10,10 @@ public class UIManager : MonoBehaviour
     public Image hpBar;
     public Image batteryBar;
 
+    [Header("게임 오버 설정")]
+    [SerializeField] private GameObject sceneGameOverPanel; // 인스펙터에서 GameOverPanel 연결
+    [SerializeField] private Button restartButton;        // [추가] GameOverPanel 안에 있는 다시시작 버튼 연결
+
     [Header("보물 획득 UI")]
     [SerializeField] private GameObject resultPanel;
     [SerializeField] private Image resultImage;
@@ -37,6 +41,20 @@ public class UIManager : MonoBehaviour
 
     void Start() 
     {
+        // [핵심 수정] 씬이 시작될 때마다 살아있는 GameManager 인스턴스에 현재 씬의 UI들을 연결
+        if (GameManager.instance != null)
+        {
+            // 1. 게임오버 패널 참조 갱신
+            GameManager.instance.GameOverPanel = sceneGameOverPanel;
+
+            // 2. 버튼 클릭 이벤트 코드로 연결 (Missing 방지)
+            if (restartButton != null)
+            {
+                restartButton.onClick.RemoveAllListeners(); // 기존에 잘못 연결된 리스너 제거
+                restartButton.onClick.AddListener(GameManager.instance.GameOver); // 진짜 인스턴스의 함수 연결
+            }
+        }
+
         if (resultPanel != null) resultPanel.SetActive(false);
         UpdateInventoryUI();
         questUi.SetActive(false);
@@ -44,6 +62,8 @@ public class UIManager : MonoBehaviour
 
     void Update() 
     {
+        if (GameManager.instance == null) return;
+
         moneyText.text = GameManager.instance.money.ToString();
         hpBar.fillAmount = (float)GameManager.instance.currentHealth / GameManager.instance.maxHealth;
         batteryBar.fillAmount = (float)GameManager.instance.currentBattery / GameManager.instance.maxBattery;

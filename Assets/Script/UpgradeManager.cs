@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class UpgradeManager : MonoBehaviour
 {
     [SerializeField] private GameObject shopPanel;//상점 패널 (이 안에 상점 버튼,텍스트 넣으면 됨)
+    [SerializeField] private Button shopButton;
 
     [Header("업그레이드 수치 및 UI")]
     int lightUpgradeLevel = 0; //헤드라이트 업그레이드 레벨
@@ -82,6 +83,9 @@ public class UpgradeManager : MonoBehaviour
         UpdateAllUI();
     }
 
-    void OnTriggerEnter2D(Collider2D collision) { if(collision.CompareTag("Player")) shopPanel.SetActive(true); }
-    void OnTriggerExit2D(Collider2D collision) { if(collision.CompareTag("Player")) shopPanel.SetActive(false); }
+        void OnTriggerEnter2D(Collider2D collision) { if(collision.CompareTag("Player")) shopPanel.SetActive(true);}
+        void OnTriggerExit2D(Collider2D collision) { if(collision.CompareTag("Player")) shopPanel.SetActive(false);}
+
+
+    
 }
