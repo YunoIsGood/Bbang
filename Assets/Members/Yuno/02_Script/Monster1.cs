@@ -17,7 +17,7 @@ public class Monster1 : MonoBehaviour
     private bool _inChaseRange = false;
     private bool _inAttackRange = false;
     private bool _isAttacking = false;
-    private bool _canAttack = true;
+    protected bool _canAttack = true;
 
     private Coroutine _logicCoroutine;
     private const string PLAYER_TAG = "Player";
@@ -38,7 +38,7 @@ public class Monster1 : MonoBehaviour
         if (player != null) _playerTrm = player.transform;
     }
 
-    public void SetChasing(bool value)
+    public virtual void SetChasing(bool value)
     {
         _inChaseRange = value;
         if (_inChaseRange && _logicCoroutine == null)
@@ -98,7 +98,7 @@ public class Monster1 : MonoBehaviour
         yield return new WaitForSeconds(0.3f); 
         if (attackHitbox != null) attackHitbox.SetActive(true);
         yield return new WaitForSeconds(0.2f);
-        if (attackHitbox != null) attackHitbox.SetActive(false);
+        if (attackHitbox != null)attackHitbox.SetActive(false);
 
         // --- 포인트: 여기서 바로 공격 상태 해제 ---
         // 이렇게 하면 쿨타임이 도는 중에도 몬스터는 '추격'을 시작할 수 있습니다.
@@ -108,7 +108,7 @@ public class Monster1 : MonoBehaviour
         StartCoroutine(CooldownRoutine());
     }
 
-    private IEnumerator CooldownRoutine()
+    protected virtual IEnumerator CooldownRoutine()
     {
         yield return new WaitForSeconds(attackCooldown);
         _canAttack = true;

@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class BatteryUI : MonoBehaviour
 {
     public Slider batterySlider;
-
     void Start()
     {
         if (GameManager.instance != null)

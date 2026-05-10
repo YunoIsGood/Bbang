@@ -1,19 +1,28 @@
 using UnityEngine;
 
-public class AttackRange : MonoBehaviour
+public class AttackRangeCheck : MonoBehaviour
 {
-    public Monster1 owner; 
+
+    private IChaseRange owner; //모든 몬스터 사용가능
 
     private void Awake()
     {
-        if (owner == null) owner = GetComponentInParent<Monster1>();
+        if (owner != null) //null이지 않았을때
+        {
+            owner = GetComponentInParent<IChaseRange>();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player")) 
         {
-            owner.SetAttackRange(true);
+            if (owner != null)
+            {
+                owner.SetAttackRange(true);
+            }
+       
+            
         }
     }
 
@@ -21,7 +30,11 @@ public class AttackRange : MonoBehaviour
     {
         if (collision.CompareTag("Player")) 
         {
-            owner.SetAttackRange(false);
+            if (owner != null)
+            {
+                owner.SetAttackRange(false);
+            }
+        
         }
     }
 }
