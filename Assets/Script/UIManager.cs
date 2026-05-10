@@ -1,13 +1,18 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI moneyText;
     public Image hpBar;
     public Image batteryBar;
+
+    [Header("게임 오버 설정")]
+    [SerializeField] private GameObject sceneGameOverPanel; // 인스펙터에서 GameOverPanel 연결
+    [SerializeField] private Button restartButton;        // [추가] GameOverPanel 안에 있는 다시시작 버튼 연결
 
     [Header("보물 획득 UI")]
     [SerializeField] private GameObject resultPanel;
@@ -21,10 +26,13 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Animator uiChestAnimator; // UI 내 보물상자 애니메이터
     [SerializeField] private GameObject rewardContent;  // 아이템 정보 + 버튼들을 묶은 부모 오브젝트
     [SerializeField] private float animationDuration = 1.0f; // 애니메이션이 재생되는 시간
+    [SerializeField] GameObject questUi;
 
     private TreasureData currentFoundData;
     private GameObject currentWorldTreasure;
     private TreasureManager treasureManager;
+
+   
 
     void Awake()
     {
@@ -33,15 +41,40 @@ public class UIManager : MonoBehaviour
 
     void Start() 
     {
+        // [핵심 수정] 씬이 시작될 때마다 살아있는 GameManager 인스턴스에 현재 씬의 UI들을 연결
+        if (GameManager.instance != null)
+        {
+            // 1. 게임오버 패널 참조 갱신
+            GameManager.instance.GameOverPanel = sceneGameOverPanel;
+
+            // 2. 버튼 클릭 이벤트 코드로 연결 (Missing 방지)
+            if (restartButton != null)
+            {
+                restartButton.onClick.RemoveAllListeners(); // 기존에 잘못 연결된 리스너 제거
+                restartButton.onClick.AddListener(GameManager.instance.GameOver); // 진짜 인스턴스의 함수 연결
+            }
+        }
+
         if (resultPanel != null) resultPanel.SetActive(false);
-        UpdateInventoryUI(); 
+        UpdateInventoryUI();
+        questUi.SetActive(false);
     }
 
     void Update() 
     {
+        if (GameManager.instance == null) return;
+
         moneyText.text = GameManager.instance.money.ToString();
         hpBar.fillAmount = (float)GameManager.instance.currentHealth / GameManager.instance.maxHealth;
         batteryBar.fillAmount = (float)GameManager.instance.currentBattery / GameManager.instance.maxBattery;
+
+        if (Keyboard.current.tabKey.wasPressedThisFrame)
+        {
+            bool isActive = questUi.gameObject.activeSelf;
+            questUi.SetActive(!isActive);
+
+            Time.timeScale = isActive ? 1.0f : 0.0f;
+        }
     }
 
     public void UpdateInventoryUI()
@@ -149,4 +182,6 @@ public class UIManager : MonoBehaviour
 
         Object.FindFirstObjectByType<InventoryManager>()?.SendMessage("RefreshInventory", SendMessageOptions.DontRequireReceiver);
     }
+
+   
 }
