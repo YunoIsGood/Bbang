@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class UpgradeManager : MonoBehaviour
 {
     [SerializeField] private GameObject shopPanel;//상점 패널 (이 안에 상점 버튼,텍스트 넣으면 됨)
+    [SerializeField] private Button shopButton;
 
     [Header("업그레이드 수치 및 UI")]
     int lightUpgradeLevel = 0; //헤드라이트 업그레이드 레벨
@@ -31,10 +32,10 @@ public class UpgradeManager : MonoBehaviour
 
     void UpdateAllUI() 
     {
-        lightUpgradeText.text = $"Light: {GameManager.instance.baseInnerRadius:F1}\nLv: {lightUpgradeLevel}\n{lightUpgradeGold}G";
-        hpUpgradeText.text = $"HP: {GameManager.instance.maxHealth}\nLv: {hpUpgradeLevel}\n{hpUpgradeGold}G";
-        batteryUpgradeText.text = $"Battery: {GameManager.instance.maxBattery}\nLv: {batteryUpgradeLevel}\n{batteryUpgradeGold}G";
-        bagUpgradeText.text = $"Bag: {GameManager.instance.maxInventorySlots} Slots\nLv: {bagUpgradeLevel}\n{bagUpgradeGold}G";
+        lightUpgradeText.text = $"시야 범위: {GameManager.instance.baseInnerRadius:F1}\n레벨: {lightUpgradeLevel}\n{lightUpgradeGold}G";
+        hpUpgradeText.text = $"체력: {GameManager.instance.maxHealth}\n레벨: {hpUpgradeLevel}\n{hpUpgradeGold}G";
+        batteryUpgradeText.text = $"배터리 용량: {GameManager.instance.maxBattery}\n레벨: {batteryUpgradeLevel}\n{batteryUpgradeGold}G";
+        bagUpgradeText.text = $"가방 용량: {GameManager.instance.maxInventorySlots} \n레벨: {bagUpgradeLevel}\n{bagUpgradeGold}G";
     }
 
     public void BagUpgrade() 
@@ -82,6 +83,9 @@ public class UpgradeManager : MonoBehaviour
         UpdateAllUI();
     }
 
-    void OnTriggerEnter2D(Collider2D collision) { if(collision.CompareTag("Player")) shopPanel.SetActive(true); }
-    void OnTriggerExit2D(Collider2D collision) { if(collision.CompareTag("Player")) shopPanel.SetActive(false); }
+        void OnTriggerEnter2D(Collider2D collision) { if(collision.CompareTag("Player")) shopPanel.SetActive(true);}
+        void OnTriggerExit2D(Collider2D collision) { if(collision.CompareTag("Player")) shopPanel.SetActive(false);}
+
+
+    
 }

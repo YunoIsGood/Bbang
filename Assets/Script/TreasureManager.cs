@@ -3,52 +3,58 @@ using System.Collections.Generic;
 
 public class TreasureManager : MonoBehaviour
 {
-    [Header("보물 리스트")]
-    public List<TreasureData> treasureList = new List<TreasureData>();
-
-    [Header("스폰 설정")]
+    [Header("구역(스테이지) 설정")]
+    public List<ZoneData> zones = new List<ZoneData>();
+    
+    [Header("프리팹")]
     public GameObject treasurePrefab;
-    public int spawnCount = 20;
+    
+    // 금속탐지기가 실시간으로 참조할 리스트
+    public List<Transform> activeTreasures = new List<Transform>();
 
-    [Header("스폰 범위")]
-    public float minX = -15f;
-    public float maxX = 15f;
-    public float minY = -15f;
-    public float maxY = 15f;
+    void Start() 
+    { 
+        SpawnEverything(); 
+    }
 
-    void Start() { SpawnTreasures(); }
-
-    public void SpawnTreasures()
+    public void SpawnEverything()
     {
-        if (treasureList.Count == 0 || treasurePrefab == null) return;
+        if (zones.Count == 0 || treasurePrefab == null) return;
 
-        int totalChance = 0;
-        foreach (var treasure in treasureList) totalChance += treasure.chance;
-
-        for (int i = 0; i < spawnCount; i++)
+        foreach (var zone in zones)
         {
-            int randomValue = Random.Range(0, totalChance);
-            TreasureData selectedTreasure = null;
-            int currentSum = 0;
-
-            foreach (var treasure in treasureList)
+            // 1. 보물 스폰
+            for (int i = 0; i < zone.treasureCount; i++)
             {
-                currentSum += treasure.chance;
-                if (randomValue < currentSum) { selectedTreasure = treasure; break; }
-            }
-
-            if (selectedTreasure != null)
-            {
-                Vector3 spawnPos = new Vector3(Random.Range(minX, maxX), Random.Range(minY, maxY), 0);
+                Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), Random.Range(zone.minY, zone.maxY), 0);
                 GameObject newTreasure = Instantiate(treasurePrefab, spawnPos, Quaternion.identity);
 
-                // 생성된 개별 보물(Display)에 데이터를 넣어줌
-                TreasureDisplay display = newTreasure.GetComponent<TreasureDisplay>();
-                if (display != null)
+                // 구역 리스트 중 랜덤하게 보물 데이터 할당
+                if (zone.zoneTreasures.Count > 0)
                 {
-                    display.SetTreasure(selectedTreasure);
+                    TreasureData randomData = zone.zoneTreasures[Random.Range(0, zone.zoneTreasures.Count)];
+                    newTreasure.GetComponent<TreasureDisplay>().SetTreasure(randomData);
                 }
+                
+                activeTreasures.Add(newTreasure.transform);
             }
+
+            // 2. 몬스터 스폰
+            for (int i = 0; i < zone.monsterCount; i++)
+            {
+                if (zone.zoneMonsters.Count == 0) break;
+                Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), Random.Range(zone.minY, zone.maxY), 0);
+                Instantiate(zone.zoneMonsters[Random.Range(0, zone.zoneMonsters.Count)], spawnPos, Quaternion.identity);
+            }
+        }
+    }
+
+    // 보물을 먹었을 때 리스트에서 제거해주는 함수
+    public void RemoveTreasureFromList(Transform t)
+    {
+        if (activeTreasures.Contains(t))
+        {
+            activeTreasures.Remove(t);
         }
     }
 }
