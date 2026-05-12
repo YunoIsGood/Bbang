@@ -3,19 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - Enemy
-  - Weapon
-  - Store
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - SafeZone
   - Water
   - UI
   - Treasure
-  - 
+  - Particle
   - 
   - 
   - 
@@ -43,6 +40,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Particle
+    uniqueID: 2676148079
     locked: 0
   m_RenderingLayers:
   - Default
