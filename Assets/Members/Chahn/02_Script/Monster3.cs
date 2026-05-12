@@ -13,11 +13,12 @@ public class Monster3 : MonoBehaviour, IChaseRange
     //플레이어가 공격 범위에 있는지
     private bool _canAttack;
     //플레이어가 공격을 하고있는지
-    private bool _isAttacking;
+    public bool _isAttacking;
 
     [SerializeField]
     private GameObject prefabWeapon;
-    private Monster3Weapon _monsterWeapon;
+    [SerializeField]
+    private WeaponSpawn _weaponSpawner;
     private Animator _anim;
     private Rigidbody2D _rb;
     private Transform _playerTrm;
@@ -54,7 +55,7 @@ public class Monster3 : MonoBehaviour, IChaseRange
                 dir = _playerTrm.position - transform.position;
                 dir.Normalize();
                 transform.localScale = dir.x > 0 ? new Vector3(-1, 1, 1) : new Vector3(1, 1, 1);
-                SpawnWeapon(dir);
+                _weaponSpawner.SpawnWeapon(dir);
             }
             else
             {
@@ -74,16 +75,8 @@ public class Monster3 : MonoBehaviour, IChaseRange
        
     }
 
-    void SpawnWeapon(Vector3 value)
-    {
-        GameObject mW = Instantiate(prefabWeapon, transform);
-        _monsterWeapon = mW.GetComponent<Monster3Weapon>();
-        _isAttacking = true;
-        //던지는 애니메이션
-        _monsterWeapon.WeaponToss(value);
-        StartCoroutine(CoolTimeRountine());
-    }
-    private IEnumerator CoolTimeRountine()
+   
+    public IEnumerator CoolTimeRountine()
     {
         _isAttacking = false;
         _canAttack = false;
