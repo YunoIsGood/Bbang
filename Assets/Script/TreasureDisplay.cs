@@ -109,7 +109,7 @@ public class TreasureDisplay : MonoBehaviour
     {
         isInteracted = true;
         if (myUI != null) myUI.SetActive(false);
-
+        Debug.Log("s");
         if (uiManager != null)
         {
             uiManager.ShowTreasureResult(myData, this.gameObject);

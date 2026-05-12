@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -26,8 +26,9 @@ public class GameManager : MonoBehaviour
     [Header("인벤토리 설정")]
     public List<TreasureData> myInventory = new List<TreasureData>(); // 인벤토리 리스트
     public int maxInventorySlots = 4; // 최대 가방 용량
-    public GameObject GameOverPanel; // 게임오버 패널
 
+    public UIManager uiManager;
+    
     void Awake() //싱글톤 패턴
     {
         if (instance == null)
@@ -40,6 +41,11 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    private void Start()
+    {
+        uiManager = gameObject.GetComponent<UIManager>();
+    }
+
 
     void Update()
     {
@@ -55,20 +61,19 @@ public class GameManager : MonoBehaviour
 
         isBatteryOff = currentBattery <= 0; // 현재 배터리가 0보다 작다면 isBatteryOff
 
-        // [수정] 씬 리로드 후 headLight가 null이 될 수 있으므로 체크 추가
-        if (headLight != null)
+        if (isBatteryOff) //배터리가 꺼졌으면 헤드라이트 범위 0으로
         {
-            if (isBatteryOff) //배터리가 꺼졌으면 헤드라이트 범위 0으로
-            {
-                headLight.pointLightInnerRadius = 0;
-                headLight.pointLightOuterRadius = 0;
-            }
-            else //배터리가 안꺼졌을때는 헤드라이트 범위를 변수에 설정한 값으로
-            {
-                headLight.pointLightInnerRadius = baseInnerRadius;
-                headLight.pointLightOuterRadius = baseOuterRadius;
-            }
+            headLight.pointLightInnerRadius = 0;
+            headLight.pointLightOuterRadius = 0;
         }
+        else //배터리가 안꺼졌을때는 헤드라이트 범위를 변수에 설정한 값으로
+        {
+            headLight.pointLightInnerRadius = baseInnerRadius;
+            headLight.pointLightOuterRadius = baseOuterRadius;
+        }
+
+
+        
     }
 
     public void AddMoney(int amount) //돈 관리 AddMoney(매개변수)
@@ -84,7 +89,7 @@ public class GameManager : MonoBehaviour
 
         if (currentHealth <= 0)//체력이 0보다 낮아지면 게임오버
         {
-            GameOverPanelOpen();
+            Debug.Log("게임 오버");
         }
     }
 
@@ -108,26 +113,5 @@ public class GameManager : MonoBehaviour
             Debug.Log($"{data.treasureName} 획득! ({myInventory.Count}/{maxInventorySlots})");
         }
     }
-
-    public void GameOver()
-    {
-        currentHealth = maxHealth; // 현재 체력 초기화
-        currentBattery = maxBattery; // 현재 배터리 초기화
-        money = 0; // 돈 초기화
-        myInventory.Clear(); // 인벤토리 비우기
-        isSafeZone = false; // 세이프존 상태 초기화
-
-        // 현재 씬을 다시 로드 (씬이 다시 시작됨)
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        Time.timeScale = 1;
-    }
-
-    public void GameOverPanelOpen()
-    {
-        if (GameOverPanel != null)
-        {
-            Time.timeScale = 0;
-            GameOverPanel.SetActive(true);
-        }
-    }
+   
 }
