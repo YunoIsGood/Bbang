@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class PlayerDig : MonoBehaviour
+public class PlayerDig11 : MonoBehaviour
 {
     public Tilemap groundTilemap;//지면 타일맵
     public Tilemap safeZoneTilemap;//세이프존 타일맵
