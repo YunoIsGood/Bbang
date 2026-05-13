@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 658a4bb59e9eff744806dbb2a665043f, type: 3}
-  m_Name: ZoneData
+  m_Name: 1StageData
   m_EditorClassIdentifier: 
   zoneName: 1
   minY: 5

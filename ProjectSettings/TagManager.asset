@@ -39,11 +39,23 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
+  - name: Treasure
+    uniqueID: 3529377619
+    locked: 0
+  - name: Ground
+    uniqueID: 1533279695
+    locked: 0
+  - name: SafeZone
+    uniqueID: 100416201
     locked: 0
   - name: Particle
     uniqueID: 2676148079
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3204288965
     locked: 0
   m_RenderingLayers:
   - Default

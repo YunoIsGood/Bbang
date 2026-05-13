@@ -11,7 +11,7 @@ public class ProgressBar : MonoBehaviour
 
     void Update()
     {
-        if (playerTransform == null || startPoint == null || endPoint == null) return;
+        if (playerTransform == null || startPoint == null || endPoint == null) return;//없으면 반환
 
         // 1. 현재 플레이어의 Y 위치가 시작점과 끝점 사이에서 어느 정도 비율인지 계산 (0 ~ 1)
         float totalDistance = endPoint.position.y - startPoint.position.y;

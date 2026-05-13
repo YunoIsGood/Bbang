@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class SpeedUpgread : MonoBehaviour
 {
-    [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private PlayerManager playerManager;
     public float speedUpgread=2f;
     public float speedUpMax = 15f;
     
@@ -11,16 +11,16 @@ public class SpeedUpgread : MonoBehaviour
 
     private void Start()
     {
-        playerMovement = GetComponent<PlayerMovement>(); 
+        playerManager = GetComponent<PlayerManager>(); 
     }
     private void Update()
     {
         if(Keyboard.current.uKey.wasPressedThisFrame)
         {
-            float newSpeed = playerMovement.moveSpeed + speedUpgread;
-            playerMovement.moveSpeed = Mathf.Min(newSpeed, speedUpMax);
+            float newSpeed = playerManager.moveSpeed + speedUpgread;
+            playerManager.moveSpeed = Mathf.Min(newSpeed, speedUpMax);
 
-            Debug.Log(playerMovement.moveSpeed);
+            Debug.Log(playerManager.moveSpeed);
         }
     }
 }

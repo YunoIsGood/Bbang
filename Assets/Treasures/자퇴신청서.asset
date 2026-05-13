@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ae7391b7d3dd1e40bcb977b8883ba9a, type: 3}
   m_Name: "\uC790\uD1F4\uC2E0\uCCAD\uC11C"
   m_EditorClassIdentifier: 
-  treasureName: "\uC790\uD1F4\uC2E0\uCCAD\uC11C"
-  treasureIcon: {fileID: 5079642020325165799, guid: 0b92bbaf83de64541bda8d93c1faec98, type: 3}
+  treasureName: "\uC6D0\uC601\uB208\uAE54"
+  treasureIcon: {fileID: 534960623560536297, guid: c27c469faf988054fbed9f95557c6299, type: 3}
   price: 100
   chance: 1
