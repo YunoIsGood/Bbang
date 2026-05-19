@@ -5,6 +5,7 @@ using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
+    
     public TextMeshProUGUI moneyText;
     public Image hpBar;
     public Image batteryBar;

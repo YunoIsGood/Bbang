@@ -1,0 +1,7150 @@
+fileFormatVersion: 2
+guid: 9fbe07d21b03ef145aadf42943638fdb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2174437561993808050
+    second: Soda_Stylized_32x32_ItemIconSet_0
+  - first:
+      213: -719029469713431012
+    second: Soda_Stylized_32x32_ItemIconSet_1
+  - first:
+      213: -3962968862546689298
+    second: Soda_Stylized_32x32_ItemIconSet_2
+  - first:
+      213: -8921262515786448659
+    second: Soda_Stylized_32x32_ItemIconSet_3
+  - first:
+      213: -6924635734330792118
+    second: Soda_Stylized_32x32_ItemIconSet_4
+  - first:
+      213: 6693307271274560081
+    second: Soda_Stylized_32x32_ItemIconSet_5
+  - first:
+      213: 9002651134100162081
+    second: Soda_Stylized_32x32_ItemIconSet_6
+  - first:
+      213: -1905149537130546860
+    second: Soda_Stylized_32x32_ItemIconSet_7
+  - first:
+      213: -5009549478511674261
+    second: Soda_Stylized_32x32_ItemIconSet_8
+  - first:
+      213: 8753733014122562864
+    second: Soda_Stylized_32x32_ItemIconSet_9
+  - first:
+      213: -2885764976950823258
+    second: Soda_Stylized_32x32_ItemIconSet_10
+  - first:
+      213: 8969309868317505898
+    second: Soda_Stylized_32x32_ItemIconSet_11
+  - first:
+      213: -4822290668318093157
+    second: Soda_Stylized_32x32_ItemIconSet_12
+  - first:
+      213: -8937989385968422168
+    second: Soda_Stylized_32x32_ItemIconSet_13
+  - first:
+      213: -220004657063821266
+    second: Soda_Stylized_32x32_ItemIconSet_14
+  - first:
+      213: 2330539792372152722
+    second: Soda_Stylized_32x32_ItemIconSet_15
+  - first:
+      213: 5999720324222788667
+    second: Soda_Stylized_32x32_ItemIconSet_16
+  - first:
+      213: 9088923690399897390
+    second: Soda_Stylized_32x32_ItemIconSet_17
+  - first:
+      213: -7618621906915337202
+    second: Soda_Stylized_32x32_ItemIconSet_18
+  - first:
+      213: 8294499742094665822
+    second: Soda_Stylized_32x32_ItemIconSet_19
+  - first:
+      213: -8612354247246268989
+    second: Soda_Stylized_32x32_ItemIconSet_20
+  - first:
+      213: 6597995429057304510
+    second: Soda_Stylized_32x32_ItemIconSet_21
+  - first:
+      213: -4875736160476069484
+    second: Soda_Stylized_32x32_ItemIconSet_22
+  - first:
+      213: -4341865671135923075
+    second: Soda_Stylized_32x32_ItemIconSet_23
+  - first:
+      213: 4148607066985607515
+    second: Soda_Stylized_32x32_ItemIconSet_24
+  - first:
+      213: 5072545983534439523
+    second: Soda_Stylized_32x32_ItemIconSet_25
+  - first:
+      213: 3306088597703487670
+    second: Soda_Stylized_32x32_ItemIconSet_26
+  - first:
+      213: -5904675684286412666
+    second: Soda_Stylized_32x32_ItemIconSet_27
+  - first:
+      213: -1384783479897582154
+    second: Soda_Stylized_32x32_ItemIconSet_28
+  - first:
+      213: -296077654978944910
+    second: Soda_Stylized_32x32_ItemIconSet_29
+  - first:
+      213: -6612792845788813077
+    second: Soda_Stylized_32x32_ItemIconSet_30
+  - first:
+      213: 374593105478348401
+    second: Soda_Stylized_32x32_ItemIconSet_31
+  - first:
+      213: 5193979722856477735
+    second: Soda_Stylized_32x32_ItemIconSet_32
+  - first:
+      213: 4299381672497842350
+    second: Soda_Stylized_32x32_ItemIconSet_33
+  - first:
+      213: 3534584060217724193
+    second: Soda_Stylized_32x32_ItemIconSet_34
+  - first:
+      213: 9023000400743637792
+    second: Soda_Stylized_32x32_ItemIconSet_35
+  - first:
+      213: -2936567869904113772
+    second: Soda_Stylized_32x32_ItemIconSet_36
+  - first:
+      213: -4629717123739224498
+    second: Soda_Stylized_32x32_ItemIconSet_37
+  - first:
+      213: 6310248656102020231
+    second: Soda_Stylized_32x32_ItemIconSet_38
+  - first:
+      213: -2565451306230114114
+    second: Soda_Stylized_32x32_ItemIconSet_39
+  - first:
+      213: 5138076792845506550
+    second: Soda_Stylized_32x32_ItemIconSet_40
+  - first:
+      213: 4965134534533038641
+    second: Soda_Stylized_32x32_ItemIconSet_41
+  - first:
+      213: 1034371378184905000
+    second: Soda_Stylized_32x32_ItemIconSet_42
+  - first:
+      213: 8904000612612055824
+    second: Soda_Stylized_32x32_ItemIconSet_43
+  - first:
+      213: -609821881112721851
+    second: Soda_Stylized_32x32_ItemIconSet_44
+  - first:
+      213: 2805569262680622681
+    second: Soda_Stylized_32x32_ItemIconSet_45
+  - first:
+      213: -6299716005811167465
+    second: Soda_Stylized_32x32_ItemIconSet_46
+  - first:
+      213: -582085385405791650
+    second: Soda_Stylized_32x32_ItemIconSet_47
+  - first:
+      213: -8518292121244702146
+    second: Soda_Stylized_32x32_ItemIconSet_48
+  - first:
+      213: 1671663295835199465
+    second: Soda_Stylized_32x32_ItemIconSet_49
+  - first:
+      213: -2284667600335915601
+    second: Soda_Stylized_32x32_ItemIconSet_50
+  - first:
+      213: -8461568291620251364
+    second: Soda_Stylized_32x32_ItemIconSet_51
+  - first:
+      213: 1874807684124373834
+    second: Soda_Stylized_32x32_ItemIconSet_52
+  - first:
+      213: 2797908571219316162
+    second: Soda_Stylized_32x32_ItemIconSet_53
+  - first:
+      213: 3434555735294594447
+    second: Soda_Stylized_32x32_ItemIconSet_54
+  - first:
+      213: 2693713644732363663
+    second: Soda_Stylized_32x32_ItemIconSet_55
+  - first:
+      213: 5007894291413072765
+    second: Soda_Stylized_32x32_ItemIconSet_56
+  - first:
+      213: -3757405949524338682
+    second: Soda_Stylized_32x32_ItemIconSet_57
+  - first:
+      213: -4028936600343172238
+    second: Soda_Stylized_32x32_ItemIconSet_58
+  - first:
+      213: -2170091268911910451
+    second: Soda_Stylized_32x32_ItemIconSet_59
+  - first:
+      213: 5016590681606092727
+    second: Soda_Stylized_32x32_ItemIconSet_60
+  - first:
+      213: 4959706220520578851
+    second: Soda_Stylized_32x32_ItemIconSet_61
+  - first:
+      213: 5402222587109516767
+    second: Soda_Stylized_32x32_ItemIconSet_62
+  - first:
+      213: -6971084893954605194
+    second: Soda_Stylized_32x32_ItemIconSet_63
+  - first:
+      213: -1474705542170587538
+    second: Soda_Stylized_32x32_ItemIconSet_64
+  - first:
+      213: -695893775221826848
+    second: Soda_Stylized_32x32_ItemIconSet_65
+  - first:
+      213: -7494974262179607760
+    second: Soda_Stylized_32x32_ItemIconSet_66
+  - first:
+      213: 7005458562926813997
+    second: Soda_Stylized_32x32_ItemIconSet_67
+  - first:
+      213: 8680493551660129994
+    second: Soda_Stylized_32x32_ItemIconSet_68
+  - first:
+      213: 3147096480600037647
+    second: Soda_Stylized_32x32_ItemIconSet_69
+  - first:
+      213: -7404276591211003248
+    second: Soda_Stylized_32x32_ItemIconSet_70
+  - first:
+      213: -2021553841978902835
+    second: Soda_Stylized_32x32_ItemIconSet_71
+  - first:
+      213: 2829417818013648704
+    second: Soda_Stylized_32x32_ItemIconSet_72
+  - first:
+      213: -2014379528948726169
+    second: Soda_Stylized_32x32_ItemIconSet_73
+  - first:
+      213: 146349085943030256
+    second: Soda_Stylized_32x32_ItemIconSet_74
+  - first:
+      213: 2761049229273380385
+    second: Soda_Stylized_32x32_ItemIconSet_75
+  - first:
+      213: -1249800045598684760
+    second: Soda_Stylized_32x32_ItemIconSet_76
+  - first:
+      213: -5582686533389354345
+    second: Soda_Stylized_32x32_ItemIconSet_77
+  - first:
+      213: 4356988616054133259
+    second: Soda_Stylized_32x32_ItemIconSet_78
+  - first:
+      213: 3102696895398435245
+    second: Soda_Stylized_32x32_ItemIconSet_79
+  - first:
+      213: 3174346145361697768
+    second: Soda_Stylized_32x32_ItemIconSet_80
+  - first:
+      213: -3480890930824529793
+    second: Soda_Stylized_32x32_ItemIconSet_81
+  - first:
+      213: 8937803447187701670
+    second: Soda_Stylized_32x32_ItemIconSet_82
+  - first:
+      213: -6242611737897051304
+    second: Soda_Stylized_32x32_ItemIconSet_83
+  - first:
+      213: 8142257998148365380
+    second: Soda_Stylized_32x32_ItemIconSet_84
+  - first:
+      213: -749816557420789813
+    second: Soda_Stylized_32x32_ItemIconSet_85
+  - first:
+      213: 4302960332365913821
+    second: Soda_Stylized_32x32_ItemIconSet_86
+  - first:
+      213: -8778323285336041820
+    second: Soda_Stylized_32x32_ItemIconSet_87
+  - first:
+      213: 2698521407361321695
+    second: Soda_Stylized_32x32_ItemIconSet_88
+  - first:
+      213: -8173759837373567038
+    second: Soda_Stylized_32x32_ItemIconSet_89
+  - first:
+      213: -7421505651258056246
+    second: Soda_Stylized_32x32_ItemIconSet_90
+  - first:
+      213: 2108120037967836659
+    second: Soda_Stylized_32x32_ItemIconSet_91
+  - first:
+      213: -8754961756763186133
+    second: Soda_Stylized_32x32_ItemIconSet_92
+  - first:
+      213: -821607013154321036
+    second: Soda_Stylized_32x32_ItemIconSet_93
+  - first:
+      213: 853238092276129130
+    second: Soda_Stylized_32x32_ItemIconSet_94
+  - first:
+      213: 6007672010069667497
+    second: Soda_Stylized_32x32_ItemIconSet_95
+  - first:
+      213: -2906599067058687887
+    second: Soda_Stylized_32x32_ItemIconSet_96
+  - first:
+      213: 1420938579637952526
+    second: Soda_Stylized_32x32_ItemIconSet_97
+  - first:
+      213: 6935667291643307591
+    second: Soda_Stylized_32x32_ItemIconSet_98
+  - first:
+      213: -7084883518789546320
+    second: Soda_Stylized_32x32_ItemIconSet_99
+  - first:
+      213: 8699000318308551978
+    second: Soda_Stylized_32x32_ItemIconSet_100
+  - first:
+      213: -5214670485148584909
+    second: Soda_Stylized_32x32_ItemIconSet_101
+  - first:
+      213: 1781057330916888906
+    second: Soda_Stylized_32x32_ItemIconSet_102
+  - first:
+      213: 8125488763693681059
+    second: Soda_Stylized_32x32_ItemIconSet_103
+  - first:
+      213: 7780330445015565933
+    second: Soda_Stylized_32x32_ItemIconSet_104
+  - first:
+      213: -4628621950140095788
+    second: Soda_Stylized_32x32_ItemIconSet_105
+  - first:
+      213: -9158709922220774469
+    second: Soda_Stylized_32x32_ItemIconSet_106
+  - first:
+      213: 750861008384738524
+    second: Soda_Stylized_32x32_ItemIconSet_107
+  - first:
+      213: 9012979598774792314
+    second: Soda_Stylized_32x32_ItemIconSet_108
+  - first:
+      213: -1779160682728368303
+    second: Soda_Stylized_32x32_ItemIconSet_109
+  - first:
+      213: 8213411788231462219
+    second: Soda_Stylized_32x32_ItemIconSet_110
+  - first:
+      213: 2543728192763679389
+    second: Soda_Stylized_32x32_ItemIconSet_111
+  - first:
+      213: 1196800166413170186
+    second: Soda_Stylized_32x32_ItemIconSet_112
+  - first:
+      213: -4194909696133832815
+    second: Soda_Stylized_32x32_ItemIconSet_113
+  - first:
+      213: -1918832167753665666
+    second: Soda_Stylized_32x32_ItemIconSet_114
+  - first:
+      213: 5396020342730575907
+    second: Soda_Stylized_32x32_ItemIconSet_115
+  - first:
+      213: -3797468629456379473
+    second: Soda_Stylized_32x32_ItemIconSet_116
+  - first:
+      213: -9004105752332806316
+    second: Soda_Stylized_32x32_ItemIconSet_117
+  - first:
+      213: 5505035573563888236
+    second: Soda_Stylized_32x32_ItemIconSet_118
+  - first:
+      213: -7633308995781368635
+    second: Soda_Stylized_32x32_ItemIconSet_119
+  - first:
+      213: -2260878383055882989
+    second: Soda_Stylized_32x32_ItemIconSet_120
+  - first:
+      213: -8964842422878655421
+    second: Soda_Stylized_32x32_ItemIconSet_121
+  - first:
+      213: 251428732017599466
+    second: Soda_Stylized_32x32_ItemIconSet_122
+  - first:
+      213: 3568198595100195030
+    second: Soda_Stylized_32x32_ItemIconSet_123
+  - first:
+      213: -7097503141585176092
+    second: Soda_Stylized_32x32_ItemIconSet_124
+  - first:
+      213: -4543980878136565957
+    second: Soda_Stylized_32x32_ItemIconSet_125
+  - first:
+      213: 794543229335480723
+    second: Soda_Stylized_32x32_ItemIconSet_126
+  - first:
+      213: 6319326958841839340
+    second: Soda_Stylized_32x32_ItemIconSet_127
+  - first:
+      213: 3887898059941652207
+    second: Soda_Stylized_32x32_ItemIconSet_128
+  - first:
+      213: 3874240647349294446
+    second: Soda_Stylized_32x32_ItemIconSet_129
+  - first:
+      213: 6648592538264720274
+    second: Soda_Stylized_32x32_ItemIconSet_130
+  - first:
+      213: 3057214168395078310
+    second: Soda_Stylized_32x32_ItemIconSet_131
+  - first:
+      213: 3588579533535622885
+    second: Soda_Stylized_32x32_ItemIconSet_132
+  - first:
+      213: 8492740487448459254
+    second: Soda_Stylized_32x32_ItemIconSet_133
+  - first:
+      213: -7959916904121241431
+    second: Soda_Stylized_32x32_ItemIconSet_134
+  - first:
+      213: -5030028272710728738
+    second: Soda_Stylized_32x32_ItemIconSet_135
+  - first:
+      213: -4146604934884480331
+    second: Soda_Stylized_32x32_ItemIconSet_136
+  - first:
+      213: -6769417312230244197
+    second: Soda_Stylized_32x32_ItemIconSet_137
+  - first:
+      213: 4108062297902459594
+    second: Soda_Stylized_32x32_ItemIconSet_138
+  - first:
+      213: 2424526517133795534
+    second: Soda_Stylized_32x32_ItemIconSet_139
+  - first:
+      213: 54062326847420717
+    second: Soda_Stylized_32x32_ItemIconSet_140
+  - first:
+      213: 2215497932569442392
+    second: Soda_Stylized_32x32_ItemIconSet_141
+  - first:
+      213: 6457109092987163063
+    second: Soda_Stylized_32x32_ItemIconSet_142
+  - first:
+      213: -2249245255972995910
+    second: Soda_Stylized_32x32_ItemIconSet_143
+  - first:
+      213: 5164575734226717731
+    second: Soda_Stylized_32x32_ItemIconSet_144
+  - first:
+      213: 4004669286144228712
+    second: Soda_Stylized_32x32_ItemIconSet_145
+  - first:
+      213: -5292126665590072724
+    second: Soda_Stylized_32x32_ItemIconSet_146
+  - first:
+      213: 2746735261819273040
+    second: Soda_Stylized_32x32_ItemIconSet_147
+  - first:
+      213: 7121944730058649788
+    second: Soda_Stylized_32x32_ItemIconSet_148
+  - first:
+      213: 7157228468035654226
+    second: Soda_Stylized_32x32_ItemIconSet_149
+  - first:
+      213: 4519300336089640157
+    second: Soda_Stylized_32x32_ItemIconSet_150
+  - first:
+      213: 929537655918597469
+    second: Soda_Stylized_32x32_ItemIconSet_151
+  - first:
+      213: -7579101279086027141
+    second: Soda_Stylized_32x32_ItemIconSet_152
+  - first:
+      213: 2902994275426941557
+    second: Soda_Stylized_32x32_ItemIconSet_153
+  - first:
+      213: 1559647439426094960
+    second: Soda_Stylized_32x32_ItemIconSet_154
+  - first:
+      213: 7553056647922258967
+    second: Soda_Stylized_32x32_ItemIconSet_155
+  - first:
+      213: -6209661738277424651
+    second: Soda_Stylized_32x32_ItemIconSet_156
+  - first:
+      213: -7892387951791721410
+    second: Soda_Stylized_32x32_ItemIconSet_157
+  - first:
+      213: -1039501986174471389
+    second: Soda_Stylized_32x32_ItemIconSet_158
+  - first:
+      213: -955298327284025027
+    second: Soda_Stylized_32x32_ItemIconSet_159
+  - first:
+      213: -3399377486475333262
+    second: Soda_Stylized_32x32_ItemIconSet_160
+  - first:
+      213: -8686690999206115286
+    second: Soda_Stylized_32x32_ItemIconSet_161
+  - first:
+      213: -3828648808180884259
+    second: Soda_Stylized_32x32_ItemIconSet_162
+  - first:
+      213: 6645878614556309060
+    second: Soda_Stylized_32x32_ItemIconSet_163
+  - first:
+      213: 3787797188215527310
+    second: Soda_Stylized_32x32_ItemIconSet_164
+  - first:
+      213: -3207761603261516436
+    second: Soda_Stylized_32x32_ItemIconSet_165
+  - first:
+      213: 2837435960567324182
+    second: Soda_Stylized_32x32_ItemIconSet_166
+  - first:
+      213: -283883683627284913
+    second: Soda_Stylized_32x32_ItemIconSet_167
+  - first:
+      213: 4736447391268769355
+    second: Soda_Stylized_32x32_ItemIconSet_168
+  - first:
+      213: -1934136580453936688
+    second: Soda_Stylized_32x32_ItemIconSet_169
+  - first:
+      213: -2166521795223459638
+    second: Soda_Stylized_32x32_ItemIconSet_170
+  - first:
+      213: 262120866957489977
+    second: Soda_Stylized_32x32_ItemIconSet_171
+  - first:
+      213: -2756144235006623247
+    second: Soda_Stylized_32x32_ItemIconSet_172
+  - first:
+      213: -4209009832267334739
+    second: Soda_Stylized_32x32_ItemIconSet_173
+  - first:
+      213: 7798471708614142312
+    second: Soda_Stylized_32x32_ItemIconSet_174
+  - first:
+      213: 6361868698519476254
+    second: Soda_Stylized_32x32_ItemIconSet_175
+  - first:
+      213: -8056007055406900160
+    second: Soda_Stylized_32x32_ItemIconSet_176
+  - first:
+      213: 5966178995316736947
+    second: Soda_Stylized_32x32_ItemIconSet_177
+  - first:
+      213: 1728453791777337828
+    second: Soda_Stylized_32x32_ItemIconSet_178
+  - first:
+      213: -6341485727680688570
+    second: Soda_Stylized_32x32_ItemIconSet_179
+  - first:
+      213: -5143312922823598038
+    second: Soda_Stylized_32x32_ItemIconSet_180
+  - first:
+      213: -8183356849142050724
+    second: Soda_Stylized_32x32_ItemIconSet_181
+  - first:
+      213: -5420290428707556666
+    second: Soda_Stylized_32x32_ItemIconSet_182
+  - first:
+      213: -3167139540525444049
+    second: Soda_Stylized_32x32_ItemIconSet_183
+  - first:
+      213: 3732258504346887788
+    second: Soda_Stylized_32x32_ItemIconSet_184
+  - first:
+      213: 3953059929251918986
+    second: Soda_Stylized_32x32_ItemIconSet_185
+  - first:
+      213: 3847304733609011469
+    second: Soda_Stylized_32x32_ItemIconSet_186
+  - first:
+      213: 5578396218749311393
+    second: Soda_Stylized_32x32_ItemIconSet_187
+  - first:
+      213: -4848872007943951547
+    second: Soda_Stylized_32x32_ItemIconSet_188
+  - first:
+      213: -4826577461214951038
+    second: Soda_Stylized_32x32_ItemIconSet_189
+  - first:
+      213: 5175004090963514536
+    second: Soda_Stylized_32x32_ItemIconSet_190
+  - first:
+      213: -3517408004677552963
+    second: Soda_Stylized_32x32_ItemIconSet_191
+  - first:
+      213: -8378766744735823956
+    second: Soda_Stylized_32x32_ItemIconSet_192
+  - first:
+      213: -730857965685426787
+    second: Soda_Stylized_32x32_ItemIconSet_193
+  - first:
+      213: 7254682677655908895
+    second: Soda_Stylized_32x32_ItemIconSet_194
+  - first:
+      213: 3154009349549522882
+    second: Soda_Stylized_32x32_ItemIconSet_195
+  - first:
+      213: 4333534661317937
+    second: Soda_Stylized_32x32_ItemIconSet_196
+  - first:
+      213: 1447907617203862734
+    second: Soda_Stylized_32x32_ItemIconSet_197
+  - first:
+      213: 3091420687071686619
+    second: Soda_Stylized_32x32_ItemIconSet_198
+  - first:
+      213: 2749516375648509755
+    second: Soda_Stylized_32x32_ItemIconSet_199
+  - first:
+      213: -1495930980562514590
+    second: Soda_Stylized_32x32_ItemIconSet_200
+  - first:
+      213: 1840220837272243867
+    second: Soda_Stylized_32x32_ItemIconSet_201
+  - first:
+      213: -6045856438885375823
+    second: Soda_Stylized_32x32_ItemIconSet_202
+  - first:
+      213: -7568273355341960364
+    second: Soda_Stylized_32x32_ItemIconSet_203
+  - first:
+      213: -4022231752749282684
+    second: Soda_Stylized_32x32_ItemIconSet_204
+  - first:
+      213: 3046987859285345047
+    second: Soda_Stylized_32x32_ItemIconSet_205
+  - first:
+      213: 2188328433780345368
+    second: Soda_Stylized_32x32_ItemIconSet_206
+  - first:
+      213: -3345939261301006153
+    second: Soda_Stylized_32x32_ItemIconSet_207
+  - first:
+      213: -4854691448284832436
+    second: Soda_Stylized_32x32_ItemIconSet_208
+  - first:
+      213: 3749057841994660147
+    second: Soda_Stylized_32x32_ItemIconSet_209
+  - first:
+      213: 389536720094309356
+    second: Soda_Stylized_32x32_ItemIconSet_210
+  - first:
+      213: -2471543420628802854
+    second: Soda_Stylized_32x32_ItemIconSet_211
+  - first:
+      213: -3026502600988101845
+    second: Soda_Stylized_32x32_ItemIconSet_212
+  - first:
+      213: -1583807803388888268
+    second: Soda_Stylized_32x32_ItemIconSet_213
+  - first:
+      213: -6285218347255645324
+    second: Soda_Stylized_32x32_ItemIconSet_214
+  - first:
+      213: -3262217418710545970
+    second: Soda_Stylized_32x32_ItemIconSet_215
+  - first:
+      213: -6097767045366196018
+    second: Soda_Stylized_32x32_ItemIconSet_216
+  - first:
+      213: -6259136555858861004
+    second: Soda_Stylized_32x32_ItemIconSet_217
+  - first:
+      213: -7607358817850787535
+    second: Soda_Stylized_32x32_ItemIconSet_218
+  - first:
+      213: -1852234226749852203
+    second: Soda_Stylized_32x32_ItemIconSet_219
+  - first:
+      213: 1417993196917110893
+    second: Soda_Stylized_32x32_ItemIconSet_220
+  - first:
+      213: 1705926941145113370
+    second: Soda_Stylized_32x32_ItemIconSet_221
+  - first:
+      213: -2199254574797002074
+    second: Soda_Stylized_32x32_ItemIconSet_222
+  - first:
+      213: 1923129132123711467
+    second: Soda_Stylized_32x32_ItemIconSet_223
+  - first:
+      213: 1078425464952668084
+    second: Soda_Stylized_32x32_ItemIconSet_224
+  - first:
+      213: -2733387095185398758
+    second: Soda_Stylized_32x32_ItemIconSet_225
+  - first:
+      213: -6859958025645383973
+    second: Soda_Stylized_32x32_ItemIconSet_226
+  - first:
+      213: -7689538928290236932
+    second: Soda_Stylized_32x32_ItemIconSet_227
+  - first:
+      213: 5676868766883892779
+    second: Soda_Stylized_32x32_ItemIconSet_228
+  - first:
+      213: 3312156320921454713
+    second: Soda_Stylized_32x32_ItemIconSet_229
+  - first:
+      213: -6711291661403754944
+    second: Soda_Stylized_32x32_ItemIconSet_230
+  - first:
+      213: 7557036355306851570
+    second: Soda_Stylized_32x32_ItemIconSet_231
+  - first:
+      213: -1784846754100883779
+    second: Soda_Stylized_32x32_ItemIconSet_232
+  - first:
+      213: -1824791635923648671
+    second: Soda_Stylized_32x32_ItemIconSet_233
+  - first:
+      213: 2275131262814378746
+    second: Soda_Stylized_32x32_ItemIconSet_234
+  - first:
+      213: -5730399421578961623
+    second: Soda_Stylized_32x32_ItemIconSet_235
+  - first:
+      213: 6208997980885481977
+    second: Soda_Stylized_32x32_ItemIconSet_236
+  - first:
+      213: -2364777992463113539
+    second: Soda_Stylized_32x32_ItemIconSet_237
+  - first:
+      213: -179276449670139149
+    second: Soda_Stylized_32x32_ItemIconSet_238
+  - first:
+      213: -6343627301439945251
+    second: Soda_Stylized_32x32_ItemIconSet_239
+  - first:
+      213: -3513661502199269780
+    second: Soda_Stylized_32x32_ItemIconSet_240
+  - first:
+      213: 7457743571185419614
+    second: Soda_Stylized_32x32_ItemIconSet_241
+  - first:
+      213: 3220214862336868609
+    second: Soda_Stylized_32x32_ItemIconSet_242
+  - first:
+      213: 1700349111779751420
+    second: Soda_Stylized_32x32_ItemIconSet_243
+  - first:
+      213: 5956912870025073809
+    second: Soda_Stylized_32x32_ItemIconSet_244
+  - first:
+      213: -8552146584748212709
+    second: Soda_Stylized_32x32_ItemIconSet_245
+  - first:
+      213: 8958120647806076132
+    second: Soda_Stylized_32x32_ItemIconSet_246
+  - first:
+      213: 7954253047346656944
+    second: Soda_Stylized_32x32_ItemIconSet_247
+  - first:
+      213: 3532298516823553930
+    second: Soda_Stylized_32x32_ItemIconSet_248
+  - first:
+      213: -5574391865663470054
+    second: Soda_Stylized_32x32_ItemIconSet_249
+  - first:
+      213: -1340913212772468877
+    second: Soda_Stylized_32x32_ItemIconSet_250
+  - first:
+      213: 6908179299067911945
+    second: Soda_Stylized_32x32_ItemIconSet_251
+  - first:
+      213: -3121412499360810409
+    second: Soda_Stylized_32x32_ItemIconSet_252
+  - first:
+      213: -1885912396252682012
+    second: Soda_Stylized_32x32_ItemIconSet_253
+  - first:
+      213: -4351158823800959460
+    second: Soda_Stylized_32x32_ItemIconSet_254
+  - first:
+      213: -1195664293632848243
+    second: Soda_Stylized_32x32_ItemIconSet_255
+  - first:
+      213: -4597349291338838228
+    second: Soda_Stylized_32x32_ItemIconSet_256
+  - first:
+      213: 107752634516498431
+    second: Soda_Stylized_32x32_ItemIconSet_257
+  - first:
+      213: 8216557956791959826
+    second: Soda_Stylized_32x32_ItemIconSet_258
+  - first:
+      213: -5995429765572929403
+    second: Soda_Stylized_32x32_ItemIconSet_259
+  - first:
+      213: -5262295365730276245
+    second: Soda_Stylized_32x32_ItemIconSet_260
+  - first:
+      213: 3337843019520941473
+    second: Soda_Stylized_32x32_ItemIconSet_261
+  - first:
+      213: 3864997824087580479
+    second: Soda_Stylized_32x32_ItemIconSet_262
+  - first:
+      213: 4780941923574121414
+    second: Soda_Stylized_32x32_ItemIconSet_263
+  - first:
+      213: 8590400061859210611
+    second: Soda_Stylized_32x32_ItemIconSet_264
+  - first:
+      213: 3972539928245719758
+    second: Soda_Stylized_32x32_ItemIconSet_265
+  - first:
+      213: -6929840394221322706
+    second: Soda_Stylized_32x32_ItemIconSet_266
+  - first:
+      213: 7152865301905840025
+    second: Soda_Stylized_32x32_ItemIconSet_267
+  - first:
+      213: -7282464741916701487
+    second: Soda_Stylized_32x32_ItemIconSet_268
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 610
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47b71bde88d2d1e0800000000000000
+      internalID: -2174437561993808050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 615
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1681b2c18e7506f0800000000000000
+      internalID: -719029469713431012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 611
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee288f3f0d4b009c0800000000000000
+      internalID: -3962968862546689298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 611
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de08a8e320f413480800000000000000
+      internalID: -8921262515786448659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 610
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47ac38ec70c6ef90800000000000000
+      internalID: -6924635734330792118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 610
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15afbd4208763ec50800000000000000
+      internalID: 6693307271274560081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 610
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126cec42287dfec70800000000000000
+      internalID: 9002651134100162081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 610
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4597553079c8f85e0800000000000000
+      internalID: -1905149537130546860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 611
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c71908a418a7ab0800000000000000
+      internalID: -5009549478511674261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 609
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035826d0cc18b7970800000000000000
+      internalID: 8753733014122562864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 611
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6359bfa04b3f7d0800000000000000
+      internalID: -2885764976950823258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 610
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a697875cdc3697c70800000000000000
+      internalID: 8969309868317505898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_12
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 615
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90183fcf28c31db0800000000000000
+      internalID: -4822290668318093157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_13
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 610
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2f32b4202e5f380800000000000000
+      internalID: -8937989385968422168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 580
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2087c61ee262fcf0800000000000000
+      internalID: -220004657063821266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 579
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299314be79db75020800000000000000
+      internalID: 2330539792372152722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 578
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34adf4d8d9434350800000000000000
+      internalID: 5999720324222788667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 577
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e271be4f0f7522e70800000000000000
+      internalID: 9088923690399897390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 578
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c5d48adb7354690800000000000000
+      internalID: -7618621906915337202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_19
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 576
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e582f1db19bfb1370800000000000000
+      internalID: 8294499742094665822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_20
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 579
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c53f0d3175ca7880800000000000000
+      internalID: -8612354247246268989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_21
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 577
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb79c9292e9c09b50800000000000000
+      internalID: 6597995429057304510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4910c487bc7e55cb0800000000000000
+      internalID: -4875736160476069484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 544
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74fa712d289eb3c0800000000000000
+      internalID: -4341865671135923075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 544
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b513a5ca520d29930800000000000000
+      internalID: 4148607066985607515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 544
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c976f42bd456640800000000000000
+      internalID: 5072545983534439523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 544
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0f51e201691ed20800000000000000
+      internalID: 3306088597703487670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 544
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688c83cdfb06e0ea0800000000000000
+      internalID: -5904675684286412666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b510ed03c248cce0800000000000000
+      internalID: -1384783479897582154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 544
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270ac0501fe14ebf0800000000000000
+      internalID: -296077654978944910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 544
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8638d51f3aa34a0800000000000000
+      internalID: -6612792845788813077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 544
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ee85bd172d23500800000000000000
+      internalID: 374593105478348401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_32
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 544
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724317ff909b41840800000000000000
+      internalID: 5193979722856477735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 544
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea80f0f1ad87aab30800000000000000
+      internalID: 4299381672497842350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 544
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d090ac97d5d0130800000000000000
+      internalID: 3534584060217724193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 544
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023288efe03283d70800000000000000
+      internalID: 9023000400743637792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f2a87b4173f37d0800000000000000
+      internalID: -2936567869904113772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46faf42ec0ffbfb0800000000000000
+      internalID: -4629717123739224498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 544
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784d85738b1829750800000000000000
+      internalID: 6310248656102020231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_39
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 544
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8979b11afa56cd0800000000000000
+      internalID: -2565451306230114114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f71c32de9d1e4740800000000000000
+      internalID: 5138076792845506550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_41
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 481
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132cdd08d83b7e440800000000000000
+      internalID: 4965134534533038641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821ea82c943da5e00800000000000000
+      internalID: 1034371378184905000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0132a9ab16d519b70800000000000000
+      internalID: 8904000612612055824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5460408ea3a7987f0800000000000000
+      internalID: -609821881112721851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95645de31626fe620800000000000000
+      internalID: 2805569262680622681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_46
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 482
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f58c78ba9e298a0800000000000000
+      internalID: -6299716005811167465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5201fd0d640ce7f0800000000000000
+      internalID: -582085385405791650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_48
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 483
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a63349272f8c980800000000000000
+      internalID: -8518292121244702146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7d05429e0f23710800000000000000
+      internalID: 1671663295835199465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_50
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 481
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa532241cea3b40e0800000000000000
+      internalID: -2284667600335915601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1914475878729a80800000000000000
+      internalID: -8461568291620251364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43f762d7a7a40a10800000000000000
+      internalID: 1874807684124373834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 512
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd4c85850b24d620800000000000000
+      internalID: 2797908571219316162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8dc3838e3ef9af20800000000000000
+      internalID: 3434555735294594447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 512
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8335e8b94ef16520800000000000000
+      internalID: 2693713644732363663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_56
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 490
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bf168335d9f7540800000000000000
+      internalID: 5007894291413072765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60899ad42330bdbc0800000000000000
+      internalID: -3757405949524338682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_58
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 480
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ba9f912875618c0800000000000000
+      internalID: -4028936600343172238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_59
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 482
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc134521d7942e1e0800000000000000
+      internalID: -2170091268911910451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_60
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 480
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b77aa855a28e9540800000000000000
+      internalID: 5016590681606092727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 512
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f9c68a78a64d440800000000000000
+      internalID: 4959706220520578851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_62
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 480
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5214e12dc88fa40800000000000000
+      internalID: 5402222587109516767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_63
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 482
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f7ebc293bb14f90800000000000000
+      internalID: -6971084893954605194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_64
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 483
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e4f9a6f1bc88be0800000000000000
+      internalID: -1474705542170587538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_65
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea5f766c40b756f0800000000000000
+      internalID: -695893775221826848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_66
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 482
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bc61e5e908cf790800000000000000
+      internalID: -7494974262179607760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_67
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 481
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23a8fb4273683160800000000000000
+      internalID: 7005458562926813997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_68
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 486
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace55cdd4ee477870800000000000000
+      internalID: 8680493551660129994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_69
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 488
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f091c08339bbcab20800000000000000
+      internalID: 3147096480600037647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_70
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 480
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092c02a7ba9be3990800000000000000
+      internalID: -7404276591211003248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_71
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 451
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6758acd7ff1f3e0800000000000000
+      internalID: -2021553841978902835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_72
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 447
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0474ddbb38c144720800000000000000
+      internalID: 2829417818013648704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 450
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7664136bd7c7b04e0800000000000000
+      internalID: -2014379528948726169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f166d0e7bfe70200800000000000000
+      internalID: 146349085943030256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_75
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126b43635a7315620800000000000000
+      internalID: 2761049229273380385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_76
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 449
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9c2d1fa71d7aee0800000000000000
+      internalID: -1249800045598684760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_77
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 449
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a78fc1d205682b0800000000000000
+      internalID: -5582686533389354345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 449
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02d35edf02277c30800000000000000
+      internalID: 4356988616054133259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 449
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da95ee7336efe0b20800000000000000
+      internalID: 3102696895398435245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_80
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 449
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb1a64300b8d0c20800000000000000
+      internalID: 3174346145361697768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_81
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 418
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f783356142461bfc0800000000000000
+      internalID: -3480890930824529793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af72e571e4790c70800000000000000
+      internalID: 8937803447187701670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_83
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 415
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b56fbf2b9cd59a0800000000000000
+      internalID: -6242611737897051304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c6731828c1ff070800000000000000
+      internalID: 8142257998148365380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 415
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf3a3050dd1895f0800000000000000
+      internalID: -749816557420789813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_86
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 415
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde544dcf9f27bb30800000000000000
+      internalID: 4302960332365913821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a651064b712d2680800000000000000
+      internalID: -8778323285336041820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 417
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda0f803ce2137520800000000000000
+      internalID: 2698521407361321695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_89
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 419
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf6efdfbb8f09e80800000000000000
+      internalID: -8173759837373567038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_90
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 419
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1a5365ee3810990800000000000000
+      internalID: -7421505651258056246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_91
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 416
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5b4f6510c814d10800000000000000
+      internalID: 2108120037967836659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_92
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c10020ba0208680800000000000000
+      internalID: -8754961756763186133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_93
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 416
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d87fb46c01994f0800000000000000
+      internalID: -821607013154321036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_94
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 417
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d53f6368f47db00800000000000000
+      internalID: 853238092276129130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae6247fcd98f5350800000000000000
+      internalID: 6007672010069667497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_96
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1703c7f5c8fa9a7d0800000000000000
+      internalID: -2906599067058687887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00e7f61c1038b310800000000000000
+      internalID: 1420938579637952526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746e1bea7a0704060800000000000000
+      internalID: 6935667291643307591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_99
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 384
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be878b1aff6dad90800000000000000
+      internalID: -7084883518789546320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_100
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 352
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d8ac143be09b870800000000000000
+      internalID: 8699000318308551978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_101
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 384
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334310082d4c1a7b0800000000000000
+      internalID: -5214670485148584909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_102
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 384
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4118edb43697b810800000000000000
+      internalID: 1781057330916888906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_103
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 353
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9c36adaf883c070800000000000000
+      internalID: 8125488763693681059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 383
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d664f4a515949fb60800000000000000
+      internalID: 7780330445015565933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_105
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 353
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2e25e1cd4d3cfb0800000000000000
+      internalID: -4628621950140095788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_106
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 384
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb6f25c9d9b5e080800000000000000
+      internalID: -9158709922220774469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_107
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4c670eb189b6a00800000000000000
+      internalID: 750861008384738524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 383
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7070d83139841d70800000000000000
+      internalID: 9012979598774792314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_109
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15752a319c62f47e0800000000000000
+      internalID: -1779160682728368303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_110
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 352
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dca8f3186ebf170800000000000000
+      internalID: 8213411788231462219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_111
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9253d660532d4320800000000000000
+      internalID: 2543728192763679389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_112
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 353
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a067f221963eb9010800000000000000
+      internalID: 1196800166413170186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_113
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fd9116bdfa8c5c0800000000000000
+      internalID: -4194909696133832815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_114
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7333715f40fe55e0800000000000000
+      internalID: -1918832167753665666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_115
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320dc3199e382ea40800000000000000
+      internalID: 5396020342730575907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_116
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 351
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1209fb66eac4bc0800000000000000
+      internalID: -3797468629456379473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_117
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 384
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457d628268dfa0380800000000000000
+      internalID: -9004105752332806316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_118
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 353
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c621a2eefa0d56c40800000000000000
+      internalID: 5505035573563888236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_119
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 352
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c468ad49e9011690800000000000000
+      internalID: -7633308995781368635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_120
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 353
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3153899d61fbf90e0800000000000000
+      internalID: -2260878383055882989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_121
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 357
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c27fc605b769380800000000000000
+      internalID: -8964842422878655421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 360
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae36c3289114d7300800000000000000
+      internalID: 251428732017599466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_123
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 353
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8bef497b9c48130800000000000000
+      internalID: 3568198595100195030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_124
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 352
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9b8953f7a908d90800000000000000
+      internalID: -7097503141585176092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f9084677980f0c0800000000000000
+      internalID: -4543980878136565957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_126
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 320
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399ab3f7bd8c60b00800000000000000
+      internalID: 794543229335480723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_127
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 320
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee31594362c2b750800000000000000
+      internalID: 6319326958841839340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_128
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 320
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6a0c1cfa694f530800000000000000
+      internalID: 3887898059941652207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6552a7975114c530800000000000000
+      internalID: 3874240647349294446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 326
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293d49310bb844c50800000000000000
+      internalID: 6648592538264720274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_131
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 320
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aada7d96186d6a20800000000000000
+      internalID: 3057214168395078310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_132
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 323
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6b0a892123dc130800000000000000
+      internalID: 3588579533535622885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_133
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 320
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f771f31a764cd570800000000000000
+      internalID: 8492740487448459254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_134
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0f938cfb1b88190800000000000000
+      internalID: -7959916904121241431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_135
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 320
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3c7eaafefb13ab0800000000000000
+      internalID: -5030028272710728738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba245808cc4476c0800000000000000
+      internalID: -4146604934884480331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_137
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90032802d23e02a0800000000000000
+      internalID: -6769417312230244197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_138
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 288
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaa6adf4e4c20930800000000000000
+      internalID: 4108062297902459594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_139
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0664a8506a5a120800000000000000
+      internalID: 2424526517133795534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29b87b566110c000800000000000000
+      internalID: 54062326847420717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_141
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 288
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858f967a1a70fbe10800000000000000
+      internalID: 2215497932569442392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_142
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1d17342824c9950800000000000000
+      internalID: 6457109092987163063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_143
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc3ff05b5319c0e0800000000000000
+      internalID: -2249245255972995910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_144
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 313
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c8f2664424ca740800000000000000
+      internalID: 5164575734226717731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_145
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d3b838f71739730800000000000000
+      internalID: 4004669286144228712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_146
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a912726d69e86b0800000000000000
+      internalID: -5292126665590072724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_147
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 289
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ff6c4fa2d5e1620800000000000000
+      internalID: 2746735261819273040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_148
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 288
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb07c119ffa36d260800000000000000
+      internalID: 7121944730058649788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_149
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 224
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252149dfe55935360800000000000000
+      internalID: 7157228468035654226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_150
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 256
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc2ded16b7c7be30800000000000000
+      internalID: 4519300336089640157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_151
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 224
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55906ab29166ec00800000000000000
+      internalID: 929537655918597469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_152
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 255
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e5e5fda8f91d690800000000000000
+      internalID: -7579101279086027141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_153
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 255
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ab0dba9e1894820800000000000000
+      internalID: 2902994275426941557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_154
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 224
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07707d1351bf4a510800000000000000
+      internalID: 1559647439426094960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_155
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7141fc3e009d1d860800000000000000
+      internalID: 7553056647922258967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_156
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 255
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1b3aa9c89d2d9a0800000000000000
+      internalID: -6209661738277424651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_157
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 256
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34b1e739fa987290800000000000000
+      internalID: -7892387951791721410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_158
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 224
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323f1ca7372f291f0800000000000000
+      internalID: -1039501986174471389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_159
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 255
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39f5b39b391eb2f0800000000000000
+      internalID: -955298327284025027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_160
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 224
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2717d2dcf2cf2d0d0800000000000000
+      internalID: -3399377486475333262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_161
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a288cbe6f8ca27780800000000000000
+      internalID: -8686690999206115286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_162
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 255
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcd7aaa138eddac0800000000000000
+      internalID: -3828648808180884259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4467ef87367ea3c50800000000000000
+      internalID: 6645878614556309060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_164
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 256
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e875fcc5975f09430800000000000000
+      internalID: 3787797188215527310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_165
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 224
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65b57931ddbb73d0800000000000000
+      internalID: -3207761603261516436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_166
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 255
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ed88609f8906720800000000000000
+      internalID: 2837435960567324182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_167
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 255
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46cdd73b417f0cf0800000000000000
+      internalID: -283883683627284913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_168
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 255
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e86edbecd3bb140800000000000000
+      internalID: 4736447391268769355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_169
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 255
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d154fe07019825e0800000000000000
+      internalID: -1934136580453936688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_170
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 256
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8609de7e7fee1e0800000000000000
+      internalID: -2166521795223459638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_171
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 225
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937f73b2a8d33a300800000000000000
+      internalID: 262120866957489977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_172
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f180b2cb6530c9d0800000000000000
+      internalID: -2756144235006623247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_173
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 256
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab349b9bd79695c0800000000000000
+      internalID: -4209009832267334739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_174
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 224
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86921ee63bcb93c60800000000000000
+      internalID: 7798471708614142312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_175
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 224
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e181eeaefd5e94850800000000000000
+      internalID: 6361868698519476254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_176
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 229
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c5e620440533090800000000000000
+      internalID: -8056007055406900160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_177
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 227
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b34042af202cc250800000000000000
+      internalID: 5966178995316736947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_178
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 227
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1b09dd093bcf710800000000000000
+      internalID: 1728453791777337828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_179
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e026d44548ef7a0800000000000000
+      internalID: -6341485727680688570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_180
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a206c6aa5284f98b0800000000000000
+      internalID: -5143312922823598038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_181
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 161
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50d0a09d40ee6e80800000000000000
+      internalID: -8183356849142050724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_182
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 192
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2bf61b29247c4b0800000000000000
+      internalID: -5420290428707556666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_183
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 160
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2413ec3e5f0c04d0800000000000000
+      internalID: -3167139540525444049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_184
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 192
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66e689d555abc330800000000000000
+      internalID: 3732258504346887788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_185
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 160
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8434eabf071cd630800000000000000
+      internalID: 3953059929251918986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_186
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 192
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09a175754f546530800000000000000
+      internalID: 3847304733609011469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_187
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 160
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a95fea2ec17a6d40800000000000000
+      internalID: 5578396218749311393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_188
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 192
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b6a25699855bcb0800000000000000
+      internalID: -4848872007943951547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_189
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 159
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289406f0f5d840db0800000000000000
+      internalID: -4826577461214951038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_190
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 159
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4d2196dce41d740800000000000000
+      internalID: 5175004090963514536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_191
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 192
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db434174e08af2fc0800000000000000
+      internalID: -3517408004677552963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_192
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 159
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca74a2cc904a8bb80800000000000000
+      internalID: -8378766744735823956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_193
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d953e0e6d887bd5f0800000000000000
+      internalID: -730857965685426787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_194
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 159
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f123cd7557fcda460800000000000000
+      internalID: 7254682677655908895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_195
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 192
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cff822faca45cb20800000000000000
+      internalID: 3154009349549522882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_196
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 160
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1351c1aa3556f0000800000000000000
+      internalID: 4333534661317937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_197
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 193
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccb4077e40081410800000000000000
+      internalID: 1447907617203862734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_198
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 159
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfa3306cbee6ea20800000000000000
+      internalID: 3091420687071686619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_199
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 191
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f16aa739e382620800000000000000
+      internalID: 2749516375648509755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_200
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 192
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dc11fe2b26d3be0800000000000000
+      internalID: -1495930980562514590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_201
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 160
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e42e10a17c98910800000000000000
+      internalID: 1840220837272243867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_202
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0aa35e99dc81ca0800000000000000
+      internalID: -6045856438885375823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_203
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45be9c35b7718f690800000000000000
+      internalID: -7568273355341960364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_204
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 160
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a051518892e28c0800000000000000
+      internalID: -4022231752749282684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_205
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71381ab7053194a20800000000000000
+      internalID: 3046987859285345047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_206
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 127
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a4d53cd118e5e10800000000000000
+      internalID: 2188328433780345368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_207
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 127
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0ee1a28f5d091d0800000000000000
+      internalID: -3345939261301006153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_208
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 127
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d1bda59dba0acb0800000000000000
+      internalID: -4854691448284832436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_209
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 160
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339fb727e34570430800000000000000
+      internalID: 3749057841994660147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_210
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 161
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb21344599e76500800000000000000
+      internalID: 389536720094309356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_211
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 160
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2677e8a5053bdd0800000000000000
+      internalID: -2471543420628802854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_212
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23fe446be3bff5d0800000000000000
+      internalID: -3026502600988101845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_213
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 130
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b7386b13f250ae0800000000000000
+      internalID: -1583807803388888268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_214
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 129
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b3f04b63b66c8a0800000000000000
+      internalID: -6285218347255645324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_215
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec98aa9aa864ab2d0800000000000000
+      internalID: -3262217418710545970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_216
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 98
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec85dd9fd21606ba0800000000000000
+      internalID: -6097767045366196018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_217
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 98
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434ee5bf6741329a0800000000000000
+      internalID: -6259136555858861004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_218
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 100
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139711fe57b3d6690800000000000000
+      internalID: -7607358817850787535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_219
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 103
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d531c9c8ca8b46e0800000000000000
+      internalID: -1852234226749852203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_220
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 100
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d683a2cbc49bda310800000000000000
+      internalID: 1417993196917110893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_221
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 101
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1329bbb38baca710800000000000000
+      internalID: 1705926941145113370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_222
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 97
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa629acd9daa71e0800000000000000
+      internalID: -2199254574797002074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_223
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be76079a1c350ba10800000000000000
+      internalID: 1923129132123711467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_224
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 97
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf3d332f3657fe00800000000000000
+      internalID: 1078425464952668084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_225
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 99
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1466d54bee011ad0800000000000000
+      internalID: -2733387095185398758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_226
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 98
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde115375888cc0a0800000000000000
+      internalID: -6859958025645383973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_227
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 98
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5f8bce515494590800000000000000
+      internalID: -7689538928290236932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_228
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 97
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ecf9ee01a48ce40800000000000000
+      internalID: 5676868766883892779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_229
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 99
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978861510a427fd20800000000000000
+      internalID: 3312156320921454713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_230
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 95
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04eecf9bac3bcd2a0800000000000000
+      internalID: -6711291661403754944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_231
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc07c8b68cffd860800000000000000
+      internalID: 7557036355306851570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_232
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 63
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbece4b6553fa37e0800000000000000
+      internalID: -1784846754100883779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_233
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fbaafdca90da6e0800000000000000
+      internalID: -1824791635923648671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_234
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afadf6154d3e29f10800000000000000
+      internalID: 2275131262814378746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_235
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 63
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d9ea746188970b0800000000000000
+      internalID: -5730399421578961623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_236
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 64
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9fbc554caca2650800000000000000
+      internalID: 6208997980885481977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_237
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 64
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2239ae1fe9e2fd0800000000000000
+      internalID: -2364777992463113539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_238
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 65
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f271d4d405138df0800000000000000
+      internalID: -179276449670139149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_239
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 67
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5c33e4498e6f7a0800000000000000
+      internalID: -6343627301439945251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66727cda77fc3fc0800000000000000
+      internalID: -3513661502199269780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_241
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55c572e34a3f7760800000000000000
+      internalID: 7457743571185419614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_242
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 35
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101c50a1b5080bc20800000000000000
+      internalID: 3220214862336868609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_243
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 32
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf578c1228ad89710800000000000000
+      internalID: 1700349111779751420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 31
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1941cc7b1b43ba250800000000000000
+      internalID: 5956912870025073809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_245
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 33
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e330d0efba05980800000000000000
+      internalID: -8552146584748212709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_246
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 34
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4c29b5443a15c70800000000000000
+      internalID: 8958120647806076132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_247
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 33
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b67aacc00f236e60800000000000000
+      internalID: 7954253047346656944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_248
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 34
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8738ef39ce350130800000000000000
+      internalID: 3532298516823553930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_249
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 31
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a164d40f128c3a2b0800000000000000
+      internalID: -5574391865663470054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_250
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 34
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377b116998e146de0800000000000000
+      internalID: -1340913212772468877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_251
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 33
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f56ada878cedf50800000000000000
+      internalID: 6908179299067911945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_252
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 35
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a722aaed38ea4d0800000000000000
+      internalID: -3121412499360810409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_253
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 33
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e86ad7eaa4e3d5e0800000000000000
+      internalID: -1885912396252682012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_254
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 35
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e890a6a149d93c0800000000000000
+      internalID: -4351158823800959460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_255
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 33
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e456be8a5286fe0800000000000000
+      internalID: -1195664293632848243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_256
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fca556d2fe230c0800000000000000
+      internalID: -4597349291338838228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_257
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 3
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7e7ff3370de7100800000000000000
+      internalID: 107752634516498431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_258
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2118ef2bde3170270800000000000000
+      internalID: 8216557956791959826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_259
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588d833b464fbcca0800000000000000
+      internalID: -5995429765572929403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_260
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c6676ee3298f6b0800000000000000
+      internalID: -5262295365730276245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_261
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad1096aa86625e20800000000000000
+      internalID: 3337843019520941473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_262
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fd56a1b0b33a530800000000000000
+      internalID: 3864997824087580479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_263
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c388665951595240800000000000000
+      internalID: 4780941923574121414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_264
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375ac95a75b373770800000000000000
+      internalID: 8590400061859210611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_265
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2542f640c412730800000000000000
+      internalID: 3972539928245719758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_266
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ef84890e244df90800000000000000
+      internalID: -6929840394221322706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_267
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99790563815144360800000000000000
+      internalID: 7152865301905840025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_Stylized_32x32_ItemIconSet_268
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc8fb0c6ec7fea90800000000000000
+      internalID: -7282464741916701487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Soda_Stylized_32x32_ItemIconSet_0: -2174437561993808050
+      Soda_Stylized_32x32_ItemIconSet_1: -719029469713431012
+      Soda_Stylized_32x32_ItemIconSet_10: -2885764976950823258
+      Soda_Stylized_32x32_ItemIconSet_100: 8699000318308551978
+      Soda_Stylized_32x32_ItemIconSet_101: -5214670485148584909
+      Soda_Stylized_32x32_ItemIconSet_102: 1781057330916888906
+      Soda_Stylized_32x32_ItemIconSet_103: 8125488763693681059
+      Soda_Stylized_32x32_ItemIconSet_104: 7780330445015565933
+      Soda_Stylized_32x32_ItemIconSet_105: -4628621950140095788
+      Soda_Stylized_32x32_ItemIconSet_106: -9158709922220774469
+      Soda_Stylized_32x32_ItemIconSet_107: 750861008384738524
+      Soda_Stylized_32x32_ItemIconSet_108: 9012979598774792314
+      Soda_Stylized_32x32_ItemIconSet_109: -1779160682728368303
+      Soda_Stylized_32x32_ItemIconSet_11: 8969309868317505898
+      Soda_Stylized_32x32_ItemIconSet_110: 8213411788231462219
+      Soda_Stylized_32x32_ItemIconSet_111: 2543728192763679389
+      Soda_Stylized_32x32_ItemIconSet_112: 1196800166413170186
+      Soda_Stylized_32x32_ItemIconSet_113: -4194909696133832815
+      Soda_Stylized_32x32_ItemIconSet_114: -1918832167753665666
+      Soda_Stylized_32x32_ItemIconSet_115: 5396020342730575907
+      Soda_Stylized_32x32_ItemIconSet_116: -3797468629456379473
+      Soda_Stylized_32x32_ItemIconSet_117: -9004105752332806316
+      Soda_Stylized_32x32_ItemIconSet_118: 5505035573563888236
+      Soda_Stylized_32x32_ItemIconSet_119: -7633308995781368635
+      Soda_Stylized_32x32_ItemIconSet_12: -4822290668318093157
+      Soda_Stylized_32x32_ItemIconSet_120: -2260878383055882989
+      Soda_Stylized_32x32_ItemIconSet_121: -8964842422878655421
+      Soda_Stylized_32x32_ItemIconSet_122: 251428732017599466
+      Soda_Stylized_32x32_ItemIconSet_123: 3568198595100195030
+      Soda_Stylized_32x32_ItemIconSet_124: -7097503141585176092
+      Soda_Stylized_32x32_ItemIconSet_125: -4543980878136565957
+      Soda_Stylized_32x32_ItemIconSet_126: 794543229335480723
+      Soda_Stylized_32x32_ItemIconSet_127: 6319326958841839340
+      Soda_Stylized_32x32_ItemIconSet_128: 3887898059941652207
+      Soda_Stylized_32x32_ItemIconSet_129: 3874240647349294446
+      Soda_Stylized_32x32_ItemIconSet_13: -8937989385968422168
+      Soda_Stylized_32x32_ItemIconSet_130: 6648592538264720274
+      Soda_Stylized_32x32_ItemIconSet_131: 3057214168395078310
+      Soda_Stylized_32x32_ItemIconSet_132: 3588579533535622885
+      Soda_Stylized_32x32_ItemIconSet_133: 8492740487448459254
+      Soda_Stylized_32x32_ItemIconSet_134: -7959916904121241431
+      Soda_Stylized_32x32_ItemIconSet_135: -5030028272710728738
+      Soda_Stylized_32x32_ItemIconSet_136: -4146604934884480331
+      Soda_Stylized_32x32_ItemIconSet_137: -6769417312230244197
+      Soda_Stylized_32x32_ItemIconSet_138: 4108062297902459594
+      Soda_Stylized_32x32_ItemIconSet_139: 2424526517133795534
+      Soda_Stylized_32x32_ItemIconSet_14: -220004657063821266
+      Soda_Stylized_32x32_ItemIconSet_140: 54062326847420717
+      Soda_Stylized_32x32_ItemIconSet_141: 2215497932569442392
+      Soda_Stylized_32x32_ItemIconSet_142: 6457109092987163063
+      Soda_Stylized_32x32_ItemIconSet_143: -2249245255972995910
+      Soda_Stylized_32x32_ItemIconSet_144: 5164575734226717731
+      Soda_Stylized_32x32_ItemIconSet_145: 4004669286144228712
+      Soda_Stylized_32x32_ItemIconSet_146: -5292126665590072724
+      Soda_Stylized_32x32_ItemIconSet_147: 2746735261819273040
+      Soda_Stylized_32x32_ItemIconSet_148: 7121944730058649788
+      Soda_Stylized_32x32_ItemIconSet_149: 7157228468035654226
+      Soda_Stylized_32x32_ItemIconSet_15: 2330539792372152722
+      Soda_Stylized_32x32_ItemIconSet_150: 4519300336089640157
+      Soda_Stylized_32x32_ItemIconSet_151: 929537655918597469
+      Soda_Stylized_32x32_ItemIconSet_152: -7579101279086027141
+      Soda_Stylized_32x32_ItemIconSet_153: 2902994275426941557
+      Soda_Stylized_32x32_ItemIconSet_154: 1559647439426094960
+      Soda_Stylized_32x32_ItemIconSet_155: 7553056647922258967
+      Soda_Stylized_32x32_ItemIconSet_156: -6209661738277424651
+      Soda_Stylized_32x32_ItemIconSet_157: -7892387951791721410
+      Soda_Stylized_32x32_ItemIconSet_158: -1039501986174471389
+      Soda_Stylized_32x32_ItemIconSet_159: -955298327284025027
+      Soda_Stylized_32x32_ItemIconSet_16: 5999720324222788667
+      Soda_Stylized_32x32_ItemIconSet_160: -3399377486475333262
+      Soda_Stylized_32x32_ItemIconSet_161: -8686690999206115286
+      Soda_Stylized_32x32_ItemIconSet_162: -3828648808180884259
+      Soda_Stylized_32x32_ItemIconSet_163: 6645878614556309060
+      Soda_Stylized_32x32_ItemIconSet_164: 3787797188215527310
+      Soda_Stylized_32x32_ItemIconSet_165: -3207761603261516436
+      Soda_Stylized_32x32_ItemIconSet_166: 2837435960567324182
+      Soda_Stylized_32x32_ItemIconSet_167: -283883683627284913
+      Soda_Stylized_32x32_ItemIconSet_168: 4736447391268769355
+      Soda_Stylized_32x32_ItemIconSet_169: -1934136580453936688
+      Soda_Stylized_32x32_ItemIconSet_17: 9088923690399897390
+      Soda_Stylized_32x32_ItemIconSet_170: -2166521795223459638
+      Soda_Stylized_32x32_ItemIconSet_171: 262120866957489977
+      Soda_Stylized_32x32_ItemIconSet_172: -2756144235006623247
+      Soda_Stylized_32x32_ItemIconSet_173: -4209009832267334739
+      Soda_Stylized_32x32_ItemIconSet_174: 7798471708614142312
+      Soda_Stylized_32x32_ItemIconSet_175: 6361868698519476254
+      Soda_Stylized_32x32_ItemIconSet_176: -8056007055406900160
+      Soda_Stylized_32x32_ItemIconSet_177: 5966178995316736947
+      Soda_Stylized_32x32_ItemIconSet_178: 1728453791777337828
+      Soda_Stylized_32x32_ItemIconSet_179: -6341485727680688570
+      Soda_Stylized_32x32_ItemIconSet_18: -7618621906915337202
+      Soda_Stylized_32x32_ItemIconSet_180: -5143312922823598038
+      Soda_Stylized_32x32_ItemIconSet_181: -8183356849142050724
+      Soda_Stylized_32x32_ItemIconSet_182: -5420290428707556666
+      Soda_Stylized_32x32_ItemIconSet_183: -3167139540525444049
+      Soda_Stylized_32x32_ItemIconSet_184: 3732258504346887788
+      Soda_Stylized_32x32_ItemIconSet_185: 3953059929251918986
+      Soda_Stylized_32x32_ItemIconSet_186: 3847304733609011469
+      Soda_Stylized_32x32_ItemIconSet_187: 5578396218749311393
+      Soda_Stylized_32x32_ItemIconSet_188: -4848872007943951547
+      Soda_Stylized_32x32_ItemIconSet_189: -4826577461214951038
+      Soda_Stylized_32x32_ItemIconSet_19: 8294499742094665822
+      Soda_Stylized_32x32_ItemIconSet_190: 5175004090963514536
+      Soda_Stylized_32x32_ItemIconSet_191: -3517408004677552963
+      Soda_Stylized_32x32_ItemIconSet_192: -8378766744735823956
+      Soda_Stylized_32x32_ItemIconSet_193: -730857965685426787
+      Soda_Stylized_32x32_ItemIconSet_194: 7254682677655908895
+      Soda_Stylized_32x32_ItemIconSet_195: 3154009349549522882
+      Soda_Stylized_32x32_ItemIconSet_196: 4333534661317937
+      Soda_Stylized_32x32_ItemIconSet_197: 1447907617203862734
+      Soda_Stylized_32x32_ItemIconSet_198: 3091420687071686619
+      Soda_Stylized_32x32_ItemIconSet_199: 2749516375648509755
+      Soda_Stylized_32x32_ItemIconSet_2: -3962968862546689298
+      Soda_Stylized_32x32_ItemIconSet_20: -8612354247246268989
+      Soda_Stylized_32x32_ItemIconSet_200: -1495930980562514590
+      Soda_Stylized_32x32_ItemIconSet_201: 1840220837272243867
+      Soda_Stylized_32x32_ItemIconSet_202: -6045856438885375823
+      Soda_Stylized_32x32_ItemIconSet_203: -7568273355341960364
+      Soda_Stylized_32x32_ItemIconSet_204: -4022231752749282684
+      Soda_Stylized_32x32_ItemIconSet_205: 3046987859285345047
+      Soda_Stylized_32x32_ItemIconSet_206: 2188328433780345368
+      Soda_Stylized_32x32_ItemIconSet_207: -3345939261301006153
+      Soda_Stylized_32x32_ItemIconSet_208: -4854691448284832436
+      Soda_Stylized_32x32_ItemIconSet_209: 3749057841994660147
+      Soda_Stylized_32x32_ItemIconSet_21: 6597995429057304510
+      Soda_Stylized_32x32_ItemIconSet_210: 389536720094309356
+      Soda_Stylized_32x32_ItemIconSet_211: -2471543420628802854
+      Soda_Stylized_32x32_ItemIconSet_212: -3026502600988101845
+      Soda_Stylized_32x32_ItemIconSet_213: -1583807803388888268
+      Soda_Stylized_32x32_ItemIconSet_214: -6285218347255645324
+      Soda_Stylized_32x32_ItemIconSet_215: -3262217418710545970
+      Soda_Stylized_32x32_ItemIconSet_216: -6097767045366196018
+      Soda_Stylized_32x32_ItemIconSet_217: -6259136555858861004
+      Soda_Stylized_32x32_ItemIconSet_218: -7607358817850787535
+      Soda_Stylized_32x32_ItemIconSet_219: -1852234226749852203
+      Soda_Stylized_32x32_ItemIconSet_22: -4875736160476069484
+      Soda_Stylized_32x32_ItemIconSet_220: 1417993196917110893
+      Soda_Stylized_32x32_ItemIconSet_221: 1705926941145113370
+      Soda_Stylized_32x32_ItemIconSet_222: -2199254574797002074
+      Soda_Stylized_32x32_ItemIconSet_223: 1923129132123711467
+      Soda_Stylized_32x32_ItemIconSet_224: 1078425464952668084
+      Soda_Stylized_32x32_ItemIconSet_225: -2733387095185398758
+      Soda_Stylized_32x32_ItemIconSet_226: -6859958025645383973
+      Soda_Stylized_32x32_ItemIconSet_227: -7689538928290236932
+      Soda_Stylized_32x32_ItemIconSet_228: 5676868766883892779
+      Soda_Stylized_32x32_ItemIconSet_229: 3312156320921454713
+      Soda_Stylized_32x32_ItemIconSet_23: -4341865671135923075
+      Soda_Stylized_32x32_ItemIconSet_230: -6711291661403754944
+      Soda_Stylized_32x32_ItemIconSet_231: 7557036355306851570
+      Soda_Stylized_32x32_ItemIconSet_232: -1784846754100883779
+      Soda_Stylized_32x32_ItemIconSet_233: -1824791635923648671
+      Soda_Stylized_32x32_ItemIconSet_234: 2275131262814378746
+      Soda_Stylized_32x32_ItemIconSet_235: -5730399421578961623
+      Soda_Stylized_32x32_ItemIconSet_236: 6208997980885481977
+      Soda_Stylized_32x32_ItemIconSet_237: -2364777992463113539
+      Soda_Stylized_32x32_ItemIconSet_238: -179276449670139149
+      Soda_Stylized_32x32_ItemIconSet_239: -6343627301439945251
+      Soda_Stylized_32x32_ItemIconSet_24: 4148607066985607515
+      Soda_Stylized_32x32_ItemIconSet_240: -3513661502199269780
+      Soda_Stylized_32x32_ItemIconSet_241: 7457743571185419614
+      Soda_Stylized_32x32_ItemIconSet_242: 3220214862336868609
+      Soda_Stylized_32x32_ItemIconSet_243: 1700349111779751420
+      Soda_Stylized_32x32_ItemIconSet_244: 5956912870025073809
+      Soda_Stylized_32x32_ItemIconSet_245: -8552146584748212709
+      Soda_Stylized_32x32_ItemIconSet_246: 8958120647806076132
+      Soda_Stylized_32x32_ItemIconSet_247: 7954253047346656944
+      Soda_Stylized_32x32_ItemIconSet_248: 3532298516823553930
+      Soda_Stylized_32x32_ItemIconSet_249: -5574391865663470054
+      Soda_Stylized_32x32_ItemIconSet_25: 5072545983534439523
+      Soda_Stylized_32x32_ItemIconSet_250: -1340913212772468877
+      Soda_Stylized_32x32_ItemIconSet_251: 6908179299067911945
+      Soda_Stylized_32x32_ItemIconSet_252: -3121412499360810409
+      Soda_Stylized_32x32_ItemIconSet_253: -1885912396252682012
+      Soda_Stylized_32x32_ItemIconSet_254: -4351158823800959460
+      Soda_Stylized_32x32_ItemIconSet_255: -1195664293632848243
+      Soda_Stylized_32x32_ItemIconSet_256: -4597349291338838228
+      Soda_Stylized_32x32_ItemIconSet_257: 107752634516498431
+      Soda_Stylized_32x32_ItemIconSet_258: 8216557956791959826
+      Soda_Stylized_32x32_ItemIconSet_259: -5995429765572929403
+      Soda_Stylized_32x32_ItemIconSet_26: 3306088597703487670
+      Soda_Stylized_32x32_ItemIconSet_260: -5262295365730276245
+      Soda_Stylized_32x32_ItemIconSet_261: 3337843019520941473
+      Soda_Stylized_32x32_ItemIconSet_262: 3864997824087580479
+      Soda_Stylized_32x32_ItemIconSet_263: 4780941923574121414
+      Soda_Stylized_32x32_ItemIconSet_264: 8590400061859210611
+      Soda_Stylized_32x32_ItemIconSet_265: 3972539928245719758
+      Soda_Stylized_32x32_ItemIconSet_266: -6929840394221322706
+      Soda_Stylized_32x32_ItemIconSet_267: 7152865301905840025
+      Soda_Stylized_32x32_ItemIconSet_268: -7282464741916701487
+      Soda_Stylized_32x32_ItemIconSet_27: -5904675684286412666
+      Soda_Stylized_32x32_ItemIconSet_28: -1384783479897582154
+      Soda_Stylized_32x32_ItemIconSet_29: -296077654978944910
+      Soda_Stylized_32x32_ItemIconSet_3: -8921262515786448659
+      Soda_Stylized_32x32_ItemIconSet_30: -6612792845788813077
+      Soda_Stylized_32x32_ItemIconSet_31: 374593105478348401
+      Soda_Stylized_32x32_ItemIconSet_32: 5193979722856477735
+      Soda_Stylized_32x32_ItemIconSet_33: 4299381672497842350
+      Soda_Stylized_32x32_ItemIconSet_34: 3534584060217724193
+      Soda_Stylized_32x32_ItemIconSet_35: 9023000400743637792
+      Soda_Stylized_32x32_ItemIconSet_36: -2936567869904113772
+      Soda_Stylized_32x32_ItemIconSet_37: -4629717123739224498
+      Soda_Stylized_32x32_ItemIconSet_38: 6310248656102020231
+      Soda_Stylized_32x32_ItemIconSet_39: -2565451306230114114
+      Soda_Stylized_32x32_ItemIconSet_4: -6924635734330792118
+      Soda_Stylized_32x32_ItemIconSet_40: 5138076792845506550
+      Soda_Stylized_32x32_ItemIconSet_41: 4965134534533038641
+      Soda_Stylized_32x32_ItemIconSet_42: 1034371378184905000
+      Soda_Stylized_32x32_ItemIconSet_43: 8904000612612055824
+      Soda_Stylized_32x32_ItemIconSet_44: -609821881112721851
+      Soda_Stylized_32x32_ItemIconSet_45: 2805569262680622681
+      Soda_Stylized_32x32_ItemIconSet_46: -6299716005811167465
+      Soda_Stylized_32x32_ItemIconSet_47: -582085385405791650
+      Soda_Stylized_32x32_ItemIconSet_48: -8518292121244702146
+      Soda_Stylized_32x32_ItemIconSet_49: 1671663295835199465
+      Soda_Stylized_32x32_ItemIconSet_5: 6693307271274560081
+      Soda_Stylized_32x32_ItemIconSet_50: -2284667600335915601
+      Soda_Stylized_32x32_ItemIconSet_51: -8461568291620251364
+      Soda_Stylized_32x32_ItemIconSet_52: 1874807684124373834
+      Soda_Stylized_32x32_ItemIconSet_53: 2797908571219316162
+      Soda_Stylized_32x32_ItemIconSet_54: 3434555735294594447
+      Soda_Stylized_32x32_ItemIconSet_55: 2693713644732363663
+      Soda_Stylized_32x32_ItemIconSet_56: 5007894291413072765
+      Soda_Stylized_32x32_ItemIconSet_57: -3757405949524338682
+      Soda_Stylized_32x32_ItemIconSet_58: -4028936600343172238
+      Soda_Stylized_32x32_ItemIconSet_59: -2170091268911910451
+      Soda_Stylized_32x32_ItemIconSet_6: 9002651134100162081
+      Soda_Stylized_32x32_ItemIconSet_60: 5016590681606092727
+      Soda_Stylized_32x32_ItemIconSet_61: 4959706220520578851
+      Soda_Stylized_32x32_ItemIconSet_62: 5402222587109516767
+      Soda_Stylized_32x32_ItemIconSet_63: -6971084893954605194
+      Soda_Stylized_32x32_ItemIconSet_64: -1474705542170587538
+      Soda_Stylized_32x32_ItemIconSet_65: -695893775221826848
+      Soda_Stylized_32x32_ItemIconSet_66: -7494974262179607760
+      Soda_Stylized_32x32_ItemIconSet_67: 7005458562926813997
+      Soda_Stylized_32x32_ItemIconSet_68: 8680493551660129994
+      Soda_Stylized_32x32_ItemIconSet_69: 3147096480600037647
+      Soda_Stylized_32x32_ItemIconSet_7: -1905149537130546860
+      Soda_Stylized_32x32_ItemIconSet_70: -7404276591211003248
+      Soda_Stylized_32x32_ItemIconSet_71: -2021553841978902835
+      Soda_Stylized_32x32_ItemIconSet_72: 2829417818013648704
+      Soda_Stylized_32x32_ItemIconSet_73: -2014379528948726169
+      Soda_Stylized_32x32_ItemIconSet_74: 146349085943030256
+      Soda_Stylized_32x32_ItemIconSet_75: 2761049229273380385
+      Soda_Stylized_32x32_ItemIconSet_76: -1249800045598684760
+      Soda_Stylized_32x32_ItemIconSet_77: -5582686533389354345
+      Soda_Stylized_32x32_ItemIconSet_78: 4356988616054133259
+      Soda_Stylized_32x32_ItemIconSet_79: 3102696895398435245
+      Soda_Stylized_32x32_ItemIconSet_8: -5009549478511674261
+      Soda_Stylized_32x32_ItemIconSet_80: 3174346145361697768
+      Soda_Stylized_32x32_ItemIconSet_81: -3480890930824529793
+      Soda_Stylized_32x32_ItemIconSet_82: 8937803447187701670
+      Soda_Stylized_32x32_ItemIconSet_83: -6242611737897051304
+      Soda_Stylized_32x32_ItemIconSet_84: 8142257998148365380
+      Soda_Stylized_32x32_ItemIconSet_85: -749816557420789813
+      Soda_Stylized_32x32_ItemIconSet_86: 4302960332365913821
+      Soda_Stylized_32x32_ItemIconSet_87: -8778323285336041820
+      Soda_Stylized_32x32_ItemIconSet_88: 2698521407361321695
+      Soda_Stylized_32x32_ItemIconSet_89: -8173759837373567038
+      Soda_Stylized_32x32_ItemIconSet_9: 8753733014122562864
+      Soda_Stylized_32x32_ItemIconSet_90: -7421505651258056246
+      Soda_Stylized_32x32_ItemIconSet_91: 2108120037967836659
+      Soda_Stylized_32x32_ItemIconSet_92: -8754961756763186133
+      Soda_Stylized_32x32_ItemIconSet_93: -821607013154321036
+      Soda_Stylized_32x32_ItemIconSet_94: 853238092276129130
+      Soda_Stylized_32x32_ItemIconSet_95: 6007672010069667497
+      Soda_Stylized_32x32_ItemIconSet_96: -2906599067058687887
+      Soda_Stylized_32x32_ItemIconSet_97: 1420938579637952526
+      Soda_Stylized_32x32_ItemIconSet_98: 6935667291643307591
+      Soda_Stylized_32x32_ItemIconSet_99: -7084883518789546320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

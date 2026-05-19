@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement Limits")]
     public float minX, maxX, minY, maxY;
 
+ 
     void OnMove(InputValue value)
     {
         moveDir = value.Get<Vector2>();
@@ -23,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
         
         nextPos.x = Mathf.Clamp(nextPos.x, minX, maxX);
         nextPos.y = Mathf.Clamp(nextPos.y, minY, maxY);
+     
 
         
         transform.position = nextPos;
