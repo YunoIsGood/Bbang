@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-/*
+
 public class ItemManager : MonoBehaviour
 {
     public int itemcoin = 3;//힐 아이템 개수
@@ -140,4 +140,3 @@ public class ItemManager : MonoBehaviour
   
 
 }
-*/
