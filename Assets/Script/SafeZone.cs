@@ -28,10 +28,6 @@ public class SafeZone : MonoBehaviour
 
     }
 
+    }
 
-    }
-
-
-
-
-}
+	}
