@@ -2,26 +2,31 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 
-//플레이어 이동
 public class PlayerMovement : MonoBehaviour 
 {
-    public float moveSpeed = 5f;
-    private Rigidbody2D rb;
-    private Vector2 moveDir;
+    public float moveSpeed = 5f;
+    private Vector2 moveDir;
+    
+    [Header("Movement Limits")]
+    public float minX, maxX, minY, maxY;
 
-  
+ 
+    void OnMove(InputValue value)
+    {
+        moveDir = value.Get<Vector2>();
+    }
 
-    void OnMove(InputValue value)
-    {
-        moveDir = value.Get<Vector2>();
-    }
+    void FixedUpdate()
+    {
+        
+        Vector3 nextPos = transform.position + (Vector3)(moveDir * moveSpeed * Time.fixedDeltaTime);
 
+        
+        nextPos.x = Mathf.Clamp(nextPos.x, minX, maxX);
+        nextPos.y = Mathf.Clamp(nextPos.y, minY, maxY);
+     
 
-    void FixedUpdate()
-    {
-        transform.position += (Vector3)(moveDir * moveSpeed * Time.fixedDeltaTime);
-    }
-
-  
-  
+        
+        transform.position = nextPos;
+    }
 }
