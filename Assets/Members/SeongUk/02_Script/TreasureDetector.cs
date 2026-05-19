@@ -20,6 +20,8 @@ public class TreasureDetector : MonoBehaviour
     [SerializeField] private DetectorRadarUI radarUI; // 오른쪽 아래 원형 감지 UI임
     [SerializeField] private ScanWaveEffect scanWaveEffect; // 플레이어 주변에 퍼지는 파장 효과임
 
+    public float DetectRange => detectRange;
+
     private float nextScanTime;
     private Coroutine scanCoroutine; // Coroutine은 여러 프레임에 걸쳐 실행되는 작업임
 
@@ -34,6 +36,14 @@ public class TreasureDetector : MonoBehaviour
         {
             TryScan();
         }
+    }
+
+    public void IncreaseDetectRange(float amount)
+    {
+        // 탐지 범위 업그레이드 적용용임
+        if (amount <= 0f) return;
+
+        detectRange += amount;
     }
 
     private void TryScan()
