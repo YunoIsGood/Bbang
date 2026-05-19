@@ -5,7 +5,7 @@ public class SafeZone : MonoBehaviour
 //세이프존에 들어갈 스크립트
 {
 
-    private void OnTriggerStay2D(Collider2D collider)
+    private void OnTriggerStay2D(Collider2D collider)//세이프존에 닿아있는 동안 계속해서 실행되는 함수
 
     {
 
@@ -17,7 +17,7 @@ public class SafeZone : MonoBehaviour
 
     }
 
-    private void OnTriggerExit2D(Collider2D collider)
+    private void OnTriggerExit2D(Collider2D collider)//세이프존에서 나갈 때 실행되는 함수
 
     {
     if (collider.gameObject.CompareTag("Player"))//세이프존에 닿았다가 나간 태그가 Player라면
@@ -28,6 +28,10 @@ public class SafeZone : MonoBehaviour
 
     }
 
-    }
 
-	}
+    }
+
+
+
+
+}

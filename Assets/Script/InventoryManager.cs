@@ -21,9 +21,9 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    void RefreshInventory()
+    void RefreshInventory()//인벤토리 내용물 새로고침하는 함수(보물 팔았을때)
     {
-        foreach (Transform child in content)
+        foreach (Transform child in content)//인벤토리로 들어가는 슬롯들 훑어서
         {
             Destroy(child.gameObject);//인벤토리 모두 삭제
         }

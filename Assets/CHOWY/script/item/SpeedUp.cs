@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class SpeedUp : MonoBehaviour
 {
-    [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private PlayerManager playerManager;
     public float speedUp = 10f;
     private void Update()
     {

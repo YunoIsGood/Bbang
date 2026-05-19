@@ -15,4 +15,4 @@ MonoBehaviour:
   treasureName: "\uC6D0\uC601\uB1CC"
   treasureIcon: {fileID: 699742988220537437, guid: d4b2ca0b1f121f140b1e376ba55f3813, type: 3}
   price: 100
-  chance: 1
+  chance: 39
