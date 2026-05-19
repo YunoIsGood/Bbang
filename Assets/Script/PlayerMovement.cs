@@ -9,8 +9,10 @@ public class PlayerMovement : MonoBehaviour
     public static PlayerMovement instance;
 
 
-    bool _kb = true;
-    bool _InvincibilityStatus = false;
+
+    public bool _kb = true; // 넉백 상태임 원래 flase로 해야 하는데 실수로 true를 초기값으로 만듦 ㅎㅎ 죄송 대신 작동은 잘 됨
+
+    bool _InvincibilityStatus = false; // 무적 상태
 
     public float moveSpeed = 5f;
 
@@ -103,5 +105,9 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(_invicible);
         _InvincibilityStatus = false;
     }
-}
 
+
+
+
+
+}

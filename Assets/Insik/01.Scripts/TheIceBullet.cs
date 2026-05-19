@@ -22,13 +22,15 @@ public class IceBullet : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             //플레이어 못움직임
-            Debug.Log("플레이어 얼음");
+           PlayerMovement.instance.moveSpeed = 0f;
             StartCoroutine(CanMoveRoutine());
         }
     }
     public IEnumerator CanMoveRoutine()
     {
         yield return new WaitForSeconds(1.5f);
+        Destroy(gameObject);
+        PlayerMovement.instance.moveSpeed = 5f;
         //다시 움직이는 코드 
     }
 

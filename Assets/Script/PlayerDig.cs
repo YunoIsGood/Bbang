@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class PlayerDig : MonoBehaviour
+public class PlayerDig11 : MonoBehaviour
 {
     public Tilemap groundTilemap;
     public Tilemap safeZoneTilemap;
@@ -12,8 +12,13 @@ public class PlayerDig : MonoBehaviour
 
     void Update()
     {
+
     
     if (Time.timeScale == 0) return;//시간 흐르는 값(timeScale)이 0이면 반환
+
+        // UI가 떠서 시간이 멈춘 상태라면 입력 무시
+        if (Time.timeScale == 0) return;
+
 
     if (Input.GetKeyDown(KeyCode.C)) DigGround();//C 누르면 땅파는 함수 호출
     if (Input.GetKeyDown(KeyCode.E)) TryCollectTreasure();//E 누르면 보물먹는 함수 호출

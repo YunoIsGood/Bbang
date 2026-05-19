@@ -1,7 +1,8 @@
-using System.Runtime.CompilerServices;
-using UnityEngine;
-using System.Collections;
 using JetBrains.Annotations;
+using System.Collections;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using UnityEngine;
 public class EnemyInsik : MonoBehaviour, IEnemyinterface
 {
   private GameObject _Player;
@@ -26,7 +27,9 @@ public class EnemyInsik : MonoBehaviour, IEnemyinterface
 
     private float timer = 10f;
 
-    
+  
+
+
     private void Start()
     {
         _Player = GameObject.Find("Player");
@@ -110,6 +113,11 @@ public class EnemyInsik : MonoBehaviour, IEnemyinterface
         _moveDir = ((Vector3)_BirthPoint - transform.position).normalized;
         
     }
+
+   
+    
+
+
         
 }
 

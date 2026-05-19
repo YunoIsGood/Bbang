@@ -30,19 +30,19 @@ public class Attack : MonoBehaviour
         float v = Input.GetAxisRaw("Vertical");
 
         float h = Input.GetAxisRaw("Horizontal");
-        if(v > 0)
-        {
-            Player.transform.rotation = Quaternion.Euler(0, 0, 90);
-        }
-        else if(v < 0)
+        if(h > 0)
         {
             Player.transform.rotation = Quaternion.Euler(0, 0, -90);
         }
-        else if(h > 0)
+        else if(h < 0)
+        {
+            Player.transform.rotation = Quaternion.Euler(0, 0, 90);
+        }
+        else if(v > 0)
         {
             Player.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
-        else if(h < 0)
+        else if(v < 0)
         {
             Player.transform.rotation = Quaternion.Euler(0, 0, 180);
         }
