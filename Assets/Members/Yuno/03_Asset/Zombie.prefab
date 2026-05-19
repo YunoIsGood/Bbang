@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5187504622977047595}
   - component: {fileID: 7823396772512094791}
+  - component: {fileID: -6181571727080277946}
   - component: {fileID: 3009033369274417232}
   - component: {fileID: 6442898184674403106}
   - component: {fileID: 370058555127023777}
-  - component: {fileID: 742587539229153110}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -94,6 +94,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-6181571727080277946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006093452206632912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f2b9306dcf67459a8b1a0bf132f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 6c1101660bf6ab74a9bdd4bdad5fe69b, type: 2}
+  safeZoneLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  safeZoneCheckRadius: 0
+  attackHitbox: {fileID: 1472367533438316127}
 --- !u!50 &3009033369274417232
 Rigidbody2D:
   serializedVersion: 5
@@ -180,24 +198,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.08921713, y: -0.034911036}
   m_Size: {x: 1.8180784, y: 2.3340309}
   m_Direction: 0
---- !u!114 &742587539229153110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006093452206632912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d11f2b9306dcf67459a8b1a0bf132f87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data: {fileID: 0}
-  safeZoneLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  safeZoneCheckRadius: 0.2
-  attackHitbox: {fileID: 0}
 --- !u!1 &1262959763072151523
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95452a4cb7262c04997bcf4b21c3fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  owner: {fileID: -6181571727080277946}
 --- !u!58 &904427874069377374
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -508,3 +509,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9abce4e592ab0724796e708ffa654cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  owner: {fileID: -6181571727080277946}
